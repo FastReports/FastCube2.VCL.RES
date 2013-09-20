@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resources CodePage="1250">
+  <StrRes Name="SOkBtn" Text="OK"/>
+  <StrRes Name="SCancelBtn" Text="Storno"/>
+  <StrRes Name="sApplyBtn" Text="Použít"/>
+  <StrRes Name="sEditBtn" Text="Editovat ..."/>
+  <StrRes Name="sAddBtn" Text="Pøidat ..."/>
+  <StrRes Name="sDeleteBtn" Text="Smazat"/>
+  <StrRes Name="SDataOverflow" Text="Chyba pøeteèení dat!"/>
+  <StrRes Name="sDemoBlocked" Text="Tato funkce je v demoverzi blokována!"/>
+  <StrRes Name="sCheckBtn" Text="Kontrola"/>
+  <StrRes Name="sNoErrors" Text="Bez chyb"/>
+  <StrRes Name="sConfirmClearSchema" Text="Chcete vymazat rozložení møížky ?"/>
+  <StrRes Name="sNull" Text="Null"/>
+  <StrRes Name="sTrue" Text="True"/>
+  <StrRes Name="sFalse" Text="False"/>
+  <StrRes Name="SDayPrefix" Text="Den_"/>
+  <StrRes Name="SMonthPrefix" Text="Mìsíc_"/>
+  <StrRes Name="SQuarterPrefix" Text="Ètvrtletí_"/>
+  <StrRes Name="SYearPrefix" Text="Rok_"/>
+  <StrRes Name="SDayOfWeekPrefix" Text="Den_v_týdnu_"/>
+  <StrRes Name="SHourPrefix" Text="Hodina_"/>
+  <StrRes Name="SMinutePrefix" Text="Minuta_"/>
+  <StrRes Name="SSecondPrefix" Text="Sekunda_"/>
+  <StrRes Name="SMillisecondPrefix" Text="Milisekunda_"/>
+  <StrRes Name="sDateAttributeLabelPrefix" Text="Datum_"/>
+  <StrRes Name="sTimeAttributeLabelPrefix" Text="Èas_"/>
+  <StrRes Name="SCounter" Text="(poèítadlo)"/>
+  <StrRes Name="SMeasures" Text="Vrstvy"/>
+  <StrRes Name="SCounterItem" Text="Systémové poèítadlo"/>
+  <StrRes Name="sError" Text="??.?? %"/>
+  <StrRes Name="sUnknown" Text="???"/>
+  <StrRes Name="sBadValue" Text="?chyba?"/>
+  <StrRes Name="sFileLockError" Text="Nelze vytvoøit soubor %s. Možná je používán jinou aplikací."/>
+  <StrRes Name="sDataSetUnAssigned" Text="DataSet není definován !"/>
+  <StrRes Name="sDataSetOpenError" Text="Chyba pøi otevírání souboru %s!"/>
+  <StrRes Name="sCellAlreadyExist" Text="Datová buòka již existuje"/>
+  <StrRes Name="sUnknownCubeFormat" Text="Neznámý formát kostky !"/>
+  <StrRes Name="STotal" Text="Celkem"/>
+  <StrRes Name="sGrandTotal" Text="Úhrnem"/>
+  <StrRes Name="STotalBy" Text="Celkem z "/>
+  <StrRes Name="SNothing" Text="Hodnota"/>
+  <StrRes Name="sSchemaFilter" Text="Soubory schémat|*.mds"/>
+  <StrRes Name="sCubeFilter" Text="Soubory kostky|*.mdc"/>
+  <StrRes Name="sChartTemplateFilter" Text="Grafická schémata|*.mdt"/>
+  <StrRes Name="sXLSFilter" Text="Excel soubory|*.xls"/>
+  <StrRes Name="sDOCFilter" Text="Word soubory|*.doc"/>
+  <StrRes Name="sHTMLFilter" Text="HTML soubory|*.html"/>
+  <StrRes Name="sXMLFilter" Text="XML soubory|*.xml"/>
+  <StrRes Name="sEditMeasure" Text="Upravit vrstvu"/>
+  <StrRes Name="sEditMeasures" Text="Upravit vrstvy"/>
+  <StrRes Name="sMeasure" Text="Vrstva"/>
+  <StrRes Name="sMeasures" Text="Vrstvy"/>
+  <StrRes Name="sCaption" Text="Nadpis"/>
+  <StrRes Name="sAggregate" Text="Agregát:"/>
+  <StrRes Name="sUseDifferentAggregateForTotals" Text="Pro souèty použijte jiný agregát"/>
+  <StrRes Name="sCalcTotalsOnTotals" Text="Poèítat úhrny souètù"/>
+  <StrRes Name="sUseXAxisTotalsAsBase" Text="Použít sumy sloupcù jako základ"/>
+  <StrRes Name="sTotalsConflictResolving" Text="Øešení konfliktu souètù"/>
+  <StrRes Name="sTotalPosition" Text="Umístìní souètu"/>
+  <StrRes Name="sAdditionalTotals" Text="Pøidané souèty"/>
+  <StrRes Name="sEmptyCell" Text="Prázdná buòka"/>
+  <StrRes Name="sUseXAxisTotal" Text="Použít souèet sloupce"/>
+  <StrRes Name="sUseYAxisTotal" Text="Použít souèet øádku"/>
+  <StrRes Name="sDigitsAfter" Text="Pøesnost:"/>
+  <StrRes Name="sAggAlreadyExist" Text="Agregát již existuje !"/>
+  <StrRes Name="sField" Text="Agregát pole:"/>
+  <StrRes Name="sFormula" Text="Kalkulaèní vzorec:"/>
+  <StrRes Name="sCalcOrder" Text="Poøadí kalkulace:"/>
+  <StrRes Name="sFilter" Text="Filtr:"/>
+  <StrRes Name="sEditor" Text="Editor ..."/>
+  <StrRes Name="sFuncNotAllWithDate" Text="Funkci nelze použít pro typ Datum !"/>
+  <StrRes Name="sFuncNotAll" Text="Funkci nelze použít pro tento údaj !"/>
+  <StrRes Name="sFuncNotAllWithCalc" Text="Funkci nelze použít s vrstvou kalkulace!"/>
+  <StrRes Name="sIncorrectPrecision" Text="Nesprávnì zadaná pøesnost [%d]. Pøesnost se zadává jako celoèíselná hodnota &#38;#62;= 0! "/>
+  <StrRes Name="sIncorrectCalcOrder" Text="Nesprávné poøadí kalkulace [%d]. Poøadí kalkulace musí být v rozmezí %d and %d!"/>
+  <StrRes Name="sDisplayFormat" Text="Formát zobrazení"/>
+  <StrRes Name="sClearAll" Text="Smazat vše"/>
+  <StrRes Name="sInverse" Text="Invertovat"/>
+  <StrRes Name="sFieldFormCaption" Text="Seznam polí"/>
+  <StrRes Name="sFieldFormDragLabel" Text="Pøesunout do møížky"/>
+  <StrRes Name="sFieldformAddBtn" Text="Pøidat k"/>
+  <StrRes Name="sFieldFormAreaText" Text="Filtry'#$D#$A'Øádky'#$D#$A'Sloupce'#$D#$A'Vrstvy"/>
+  <StrRes Name="sFieldFormRename" Text="Pøejmenovat"/>
+  <StrRes Name="sDefCubeCaption" Text="&#60;bez nadpisu&#62;"/>
+  <StrRes Name="sFieldLabelChangeCaption" Text="Zmìna nadpisu pole"/>
+  <StrRes Name="sFieldLabelChangePropmpt" Text="Vložte nový nadpis pole"/>
+  <StrRes Name="sCubeChangeCaption" Text="Zmìna nadpisu kostky"/>
+  <StrRes Name="sCubeChangePropmpt" Text="Vložte nový nadpis kostky"/>
+  <StrRes Name="sInfoFormCaption" Text="Informace o kostce"/>
+  <StrRes Name="sInfoFormSliceGeometry" Text="Geometrie øezu"/>
+  <StrRes Name="sInfoFormSourceRowCount" Text="Poèet zdrojových øádkù"/>
+  <StrRes Name="sInfoFormRowDimCount" Text="Poèet rozmìrù v øádku"/>
+  <StrRes Name="sInfoFormColDimCount" Text="Poèet rozmìrù ve sloupci"/>
+  <StrRes Name="sInfoFormFactsCount" Text="Poèet vrstev"/>
+  <StrRes Name="sInfoFormFilterCount" Text="Poèet polí filtru"/>
+  <StrRes Name="sInfoFormColCount" Text="Poèet sloupcù"/>
+  <StrRes Name="sInfoFormRowCount" Text="Poèet øádkù"/>
+  <StrRes Name="sInfoFormTimeChar" Text="Èasové charaktetristiky (sec.)"/>
+  <StrRes Name="sInfoFormFullTime" Text="Èas pro plné naètení"/>
+  <StrRes Name="sInfoFormDBOpenTime" Text="Otevírání dat"/>
+  <StrRes Name="sInfoFormOpenTime" Text="Pøíprava naètení"/>
+  <StrRes Name="sInfoFormDBMoveTime" Text="Ètení dat"/>
+  <StrRes Name="sInfoFormDBGetDataTime" Text="Získávání hodnot"/>
+  <StrRes Name="sInfoFormConvertTime" Text="Konverze hodnot"/>
+  <StrRes Name="sInfoFormDBCloseTime" Text="Zavírání dat"/>
+  <StrRes Name="sInfoFormSortTime" Text="Tøídìní dat"/>
+  <StrRes Name="sInfoFormDataBuildTime" Text="Výpoèet vrstev"/>
+  <StrRes Name="sInfoFormTimeSources" Text="Zpracování zdrojù"/>
+  <StrRes Name="sInfoFormTimeAxisX" Text="Zpracování osy X"/>
+  <StrRes Name="sInfoFormTimeAxisY" Text="Zpracování osy Y"/>
+  <StrRes Name="sInfoFormTimeFacts" Text="Zpracování vrstev"/>
+  <StrRes Name="sInfoFormTimeLinks" Text="Vyplòování odkazù"/>
+  <StrRes Name="sInfoFormTimeUniques" Text="Vyplòování jedineèných hodnot"/>
+  <StrRes Name="sCubeSave" Text="Uložit kostku"/>
+  <StrRes Name="sCubeLoad" Text="Naèíst kostku"/>
+  <StrRes Name="sCubeLoadAdditional" Text="Naèíst pøídavnou kostku"/>
+  <StrRes Name="sClearGrid" Text="Vyèistit møížku"/>
+  <StrRes Name="sSchemaSave" Text="Uložit schéma"/>
+  <StrRes Name="sSchemaLoad" Text="Naèíst schéma"/>
+  <StrRes Name="sExportTo" Text="Exportovat do ..."/>
+  <StrRes Name="sShowHints" Text="Zobrazit plovoucí nápovìdu"/>
+  <StrRes Name="sHideRowZeros" Text="Skrýt prázdné øádky"/>
+  <StrRes Name="sHideColZeros" Text="Skrýt prázdné sloupce"/>
+  <StrRes Name="sRowSort" Text="Typ tøídìní øádku"/>
+  <StrRes Name="sColSort" Text="Typ tøídìní sloupce"/>
+  <StrRes Name="sDataMarker" Text="Zvýraznìní dat"/>
+  <StrRes Name="sIncDecimal" Text="Zvýšit pøesnost"/>
+  <StrRes Name="sDecDecimal" Text="Snížit pøesnost"/>
+  <StrRes Name="sAlignment" Text="Zarovnání"/>
+  <StrRes Name="sRemoveToPage" Text="Pøesun položek do oblasti stránky"/>
+  <StrRes Name="sDisplayAs" Text="Zobrazit jako"/>
+  <StrRes Name="sFieldList" Text="Seznam polí"/>
+  <StrRes Name="sInformation" Text="Informace"/>
+  <StrRes Name="sFloatYAxis" Text="Plovoucí osa Y"/>
+  <StrRes Name="sTranspose" Text="Transpozice"/>
+  <StrRes Name="sSortByValues" Text="Tøídit podle hodnot os"/>
+  <StrRes Name="sSortByTotals" Text="Tøídit podle souètù vrstev"/>
+  <StrRes Name="sSortByXSelection" Text="Tøídit podle aktivního øádku"/>
+  <StrRes Name="sSortByYSelection" Text="Tøídit podle aktivního sloupce"/>
+  <StrRes Name="sOriginalValue" Text="Pùvodní hodnota"/>
+  <StrRes Name="sRowPercentTotal" Text="Celková procenta dle øádku"/>
+  <StrRes Name="sColPercentTotal" Text="Celková procenta dle sloupce"/>
+  <StrRes Name="sRowPercentGroup" Text="Skupinová procenta dle øádku"/>
+  <StrRes Name="sColPercentGroup" Text="Skupinová procenta dle sloupce"/>
+  <StrRes Name="sGrandTotalPercent" Text="Procenta dle úhrnu souètù"/>
+  <StrRes Name="sRowRank" Text="Rozsah dle øádku"/>
+  <StrRes Name="sColRank" Text="Rozsah dle sloupce"/>
+  <StrRes Name="sSelect" Text="Vybrat"/>
+  <StrRes Name="sSelectRow" Text="Vybrat øádek"/>
+  <StrRes Name="sSelectCol" Text="Vybrat sloupec"/>
+  <StrRes Name="sSelectAll" Text="Vybrat vše"/>
+  <StrRes Name="sCopy" Text="Kopírovat"/>
+  <StrRes Name="sDeleteMeasure" Text="Smazat vrstvu"/>
+  <StrRes Name="sProperties" Text="Vlastnosti..."/>
+  <StrRes Name="sQuarter_1" Text="Ètvrtletí 1"/>
+  <StrRes Name="sQuarter_2" Text="Ètvrtletí 2"/>
+  <StrRes Name="sQuarter_3" Text="Ètvrtletí 3"/>
+  <StrRes Name="sQuarter_4" Text="Ètvrtletí 4"/>
+  <StrRes Name="sSumPrefix" Text="Souèet z "/>
+  <StrRes Name="sCountPrefix" Text="Poèet z "/>
+  <StrRes Name="sMinPrefix" Text="Minimum z "/>
+  <StrRes Name="sMaxPrefix" Text="Maximum z "/>
+  <StrRes Name="sAvgPrefix" Text="Prùmìr z "/>
+  <StrRes Name="sMulPrefix" Text="Faktoriál z "/>
+  <StrRes Name="sVariancePrefix" Text="Rozptyl z "/>
+  <StrRes Name="sStdDevPrefix" Text="Stand. odchylka z "/>
+  <StrRes Name="sVarianceSPrefix" Text="Variance S z "/>
+  <StrRes Name="sStdDevSPrefix" Text="Stand. odchylka S z "/>
+  <StrRes Name="sFuncPrefix" Text="Kalkulace "/>
+  <StrRes Name="sCountOfUniquePrefix" Text="Poèet jedineèných z "/>
+  <StrRes Name="sFactsRegion" Text="Pøesuòte pole vrstev sem"/>
+  <StrRes Name="sRowsRegion" Text="Pøesuòte pole øádku sem"/>
+  <StrRes Name="sFiltersRegion" Text="Pøesuòte pole filtru sem"/>
+  <StrRes Name="sColsRegion" Text="Pøesuòte pole sloupce sem"/>
+  <StrRes Name="sServiceRegion" Text="Servisní oblast"/>
+  <StrRes Name="sSumCaption" Text="Souèet"/>
+  <StrRes Name="sCountCaption" Text="Poèet"/>
+  <StrRes Name="sMinCaption" Text="Minimum"/>
+  <StrRes Name="sMaxCaption" Text="Maximum"/>
+  <StrRes Name="sAvgCaption" Text="Prùmìr"/>
+  <StrRes Name="sMulCaption" Text="Faktoriál "/>
+  <StrRes Name="sVarianceCaption" Text="Rozptyl"/>
+  <StrRes Name="sStdDevCaption" Text="Stand. odchylka"/>
+  <StrRes Name="sVarianceSCaption" Text="S"/>
+  <StrRes Name="sStdDevSCaption" Text="Stand. odchylka S"/>
+  <StrRes Name="sFuncCaption" Text="Kalkulace"/>
+  <StrRes Name="sCountOfUniqueCaption" Text="Poèet jedineèných"/>
+  <StrRes Name="sFuncDetCaption" Text="Podrobnosti vzorce"/>
+  <StrRes Name="sLinkToSelf" Text="Autoreference ! Code=%d."/>
+  <StrRes Name="sParentNotFound" Text=" Nenalezen nadøízený objekt ! Code=%d."/>
+  <StrRes Name="sLoopLink" Text="Kruhový odkaz ! Code=%d."/>
+  <StrRes Name="sAllValues" Text="Všechny hodnoty"/>
+  <StrRes Name="sErBadLexem" Text="Nesprávný lexem !"/>
+  <StrRes Name="sErCommentNotClosed" Text="Neukonèený komentáø !"/>
+  <StrRes Name="sErMixDigitChar" Text="Kombinace èíslic a znakù !"/>
+  <StrRes Name="sErUnfinishedIdent" Text="Deklarace identifikátoru není dokonèena"/>
+  <StrRes Name="sDetailGridCaption" Text="Podrobnosti buòky"/>
+  <StrRes Name="sLeftJustify" Text="Zarovnat vlevo"/>
+  <StrRes Name="sCenter" Text="Zarovnat na støed"/>
+  <StrRes Name="sRightJustify" Text="Zarovnat vpravo"/>
+  <StrRes Name="sPopupHint8" Text="Rozbalit"/>
+  <StrRes Name="sPopupHint9" Text="Sbalit"/>
+  <StrRes Name="sFormulaEditor" Text="Editor vzorcù"/>
+  <StrRes Name="sScriptErrorsFound" Text="Byly nalezeny chyby [%s]. Pøesto uložit ?"/>
+  <StrRes Name="sChartDataManagerCaption" Text="Data Management"/>
+  <StrRes Name="sErrorFieldAfterHierarchi" Text="Pøesun polí za hierarchická pole není doèasnì možný !"/>
+  <StrRes Name="sChartSaveTemplate" Text="Uložit schéma grafu"/>
+  <StrRes Name="sChartOpenTemplate" Text="Naèíst schéma grafu"/>
+  <StrRes Name="sChartStyle" Text="Typ grafu"/>
+  <StrRes Name="sChartByRows" Text="Dle øádkù"/>
+  <StrRes Name="sChartByCols" Text="Dle sloupcù"/>
+  <StrRes Name="sChartMarks" Text="Znaèky"/>
+  <StrRes Name="sChartLegend" Text="Legenda"/>
+  <StrRes Name="sChartDataManager" Text="Data management"/>
+  <StrRes Name="sChartStyleBar" Text="Sloupcový"/>
+  <StrRes Name="sChartStyleLine" Text="Èárový"/>
+  <StrRes Name="sChartStylePoint" Text="Bodový"/>
+  <StrRes Name="sChartStyleArea" Text="Plošný"/>
+  <StrRes Name="sChartStylePie" Text="Koláèový"/>
+  <StrRes Name="sChartLegendLeft" Text="Vlevo"/>
+  <StrRes Name="sChartLegendRight" Text="Vpravo"/>
+  <StrRes Name="sChartLegendTop" Text="Nahoøe"/>
+  <StrRes Name="sChartLegendBottom" Text="Dole"/>
+  <StrRes Name="sAutoSize_Default" Text="Výchozí"/>
+  <StrRes Name="sAutoSize_BySlice" Text="Dle rozmìrù møížky"/>
+  <StrRes Name="sAutoSize_ColWidth" Text="Automatická šíøka"/>
+  <StrRes Name="sAutoSize_ColWidthRestrict" Text="Automatická šíøka s omezením"/>
+  <StrRes Name="sAutoSize_RowHeight" Text="Automatický výška"/>
+  <StrRes Name="sAutoSize_ByMemoSize" Text="Podle velikosti vnoøeného mema"/>
+  <StrRes Name="propCube" Text="Multidimenzionální zdroj dat"/>
+  <StrRes Name="propPaintSizes" Text="Algoritmus výpoètu a jeho hodnoty"/>
+  <StrRes Name="propShowNames" Text="Urèuje zobrazení ukazatele (køíž)"/>
+  <StrRes Name="propAutoSizeStyle" Text="Algoritmus výpoètu velikosti"/>
+  <StrRes Name="propDefaultColWidth" Text="Šíøka, použitá pro všechny buòky, je-li AutoSizeStyle=ssDefault"/>
+  <StrRes Name="propDefaultRowHeight" Text="Výška, použitá pro všechny buòky, je-li AutoSizeStyle=ssDefault"/>
+  <StrRes Name="propMaxColWidth" Text="Maximální omezení šíøky sloupce, je-li AutoSizeStyle=ssAutoColWidthRestrict"/>
+  <StrRes Name="propFileName" Text="Název souboru pro existující kostku"/>
+  <StrRes Name="sConvFieldName" Text="Jméno pole"/>
+  <StrRes Name="sConvFieldType" Text="Typ"/>
+  <StrRes Name="sConvFieldSize" Text="Velikost"/>
+  <StrRes Name="sConvFieldCaption" Text="Nadpis"/>
+  <StrRes Name="sConvFieldConv" Text="Použít konvertor"/>
+  <StrRes Name="sConvFieldNewType" Text="Cílový typ"/>
+  <StrRes Name="sConvFieldNewSize" Text="Cílová velikost"/>
+  <StrRes Name="sConvEditField" Text="Upravit pole"/>
+  <StrRes Name="sConvSaveToFile" Text="Uložit do souboru"/>
+  <StrRes Name="sConvLoadFromFile" Text="Naèíst ze souboru"/>
+  <StrRes Name="sConvNoType" Text="Je tøeba urèit cílový typ !"/>
+  <StrRes Name="sConvNoSize" Text="Cílová velikost musí být &#62; 0!"/>
+  <StrRes Name="dmSelectExample" Text="Zobrazit pøíklad"/>
+  <StrRes Name="dmSchema" Text="Schémata"/>
+  <StrRes Name="dmFRPreview" Text="Náhled ve FastReportu"/>
+  <StrRes Name="dmCrossTbl" Text="Køížová tabulka"/>
+  <StrRes Name="dmChart" Text="Graf"/>
+  <StrRes Name="dmSourceTbl" Text="Zdrojová tabulka"/>
+  <StrRes Name="dmSelectExample" Text="Výbìr pøíkladu"/>
+  <StrRes Name="dmConf" Text="democonfen.txt"/>
+  <StrRes Name="sPercentFormat" Text="Formát procent"/>
+  <StrRes Name="sDefaultFormat" Text="Výchozí formát"/>
+  <StrRes Name="sChartRealTimeChange" Text="Automaticky použít zmìny"/>
+  <StrRes Name="sChartDataSource" Text="Vlastnosti zdroje dat grafu"/>
+  <StrRes Name="sChartSeriesAxis" Text="Použít jako série:"/>
+  <StrRes Name="sChartValuesAxis" Text="Použít jako kategorie:"/>
+  <StrRes Name="sChartSeriesFieldCount" Text="Poèet polí pro série:"/>
+  <StrRes Name="sChartValuesFieldCount" Text="Poèet polí pro kategorie:"/>
+  <StrRes Name="sChartMeasureFieldIndex" Text="Poøadí vrstvy:"/>
+  <StrRes Name="sChartFrozen" Text="Zmrazený graf"/>
+  <StrRes Name="sChartDataProperty" Text="Vlastnosti grafu"/>
+  <StrRes Name="sAxisX" Text="Rozmìry ze sloupcù"/>
+  <StrRes Name="sAxisY" Text="Rozmìry z øádkù"/>
+  <StrRes Name="sChartByAxisAxis" Text="Série a kategorie z rozmìrù"/>
+  <StrRes Name="sChartByAxisMeasures" Text="Série z vrstev, kategorie z rozmìrù"/>
+  <StrRes Name="sChartByMeasuresAxis" Text="Série z rozmìrù, kategorie z vrstev"/>
+  <StrRes Name="sChartPropsAreNotCorrect" Text="nesprávné nastavení vlastností grafu"/>
+  <StrRes Name="sScriptErrorFilter" Text="Chyba v prùbìhu výpoètu filtru:"/>
+  <StrRes Name="sScriptErrorCalc" Text="Chyba v prùbìhu zpracování skriptu:"/>
+  <StrRes Name="sErrorStr" Text="Chyba"/>
+  <StrRes Name="SWeekNumberPrefix" Text="Èíslo_týdne_"/>
+  <StrRes Name="SDayOfYearPrefix" Text="Den_v_roce_"/>
+  <StrRes Name="sFirstValue" Text="První hodnota"/>
+  <StrRes Name="sFirstValuePrefix" Text="První hodnota z"/>
+  <StrRes Name="sMeasureName" Text="Jméno vrstvy"/>
+  <StrRes Name="sListOfUniquePrefix" Text="Seznam jedineèných z "/>
+  <StrRes Name="sListOfUniqueCaption" Text="Seznam jedineèných"/>
+  <StrRes Name="sExportCloneMasterValue" Text="Klonovat Master hodnotu"/>
+  <StrRes Name="sCopyWithHeader" Text="Kopírovat se záhlavím"/>
+  <StrRes Name="fkCustom" Text="Individuální"/>
+  <StrRes Name="sChartStyleHorizBar" Text="Vodorovný sloupec"/>
+  <StrRes Name="sChartStackType" Text="MultiBar sloupec"/>
+  <StrRes Name="sChartStackNone" Text="Žádný"/>
+  <StrRes Name="sChartStackSide" Text="Side"/>
+  <StrRes Name="sChartStackStacked" Text="Stacked"/>
+  <StrRes Name="sChartStackStacked100" Text="Stacked 100%"/>
+  <StrRes Name="sChartStackSideAll" Text="Side All"/>
+  <StrRes Name="sChartStackSelfStack" Text="Self Stack"/>
+  <StrRes Name="sLastValue" Text="Poslední hodnoty"/>
+  <StrRes Name="sLastValuePrefix" Text="Poslední hodnota z "/>
+  <StrRes Name="obfrcCube" Text="FastCube 2 Cube objekt"/>
+  <StrRes Name="obfrcChartView" Text="FastCube 2 Chart objekt"/>
+  <StrRes Name="obfrcCrossView" Text="FastCube 2 Cross-tab objekt"/>
+  <StrRes Name="sMeasureEditor" Text="Editor vrstev"/>
+  <StrRes Name="sGeneral" Text="Obecné"/>
+  <StrRes Name="sCaption" Text="Nadpis"/>
+  <StrRes Name="sAggregate" Text="Agregát"/>
+  <StrRes Name="sFieldBased" Text="Odvozeno od pole"/>
+  <StrRes Name="sBaseField" Text="Bázové pole"/>
+  <StrRes Name="sCalculated" Text="Poèítáno"/>
+  <StrRes Name="sFunction" Text="Funkce"/>
+  <StrRes Name="sOrder" Text="Tøídìní"/>
+  <StrRes Name="sTotals" Text="Souèty"/>
+  <StrRes Name="sFiltering" Text="Filtr"/>
+  <StrRes Name="sStyle" Text="Styl"/>
+  <StrRes Name="sFillStyle" Text="Styl výplnì"/>
+  <StrRes Name="sFillColor" Text="Barva výplnì %d"/>
+  <StrRes Name="sTextStyle" Text="Styl textu"/>
+  <StrRes Name="sTextColor" Text="Barva textu"/>
+  <StrRes Name="sRange" Text="Rozsah"/>
+  <StrRes Name="sExample" Text="Pøíklad"/>
+  <StrRes Name="sAdd" Text="Pøidat"/>
+  <StrRes Name="sDelete" Text="Smazat"/>
+  <StrRes Name="sMoveUp" Text="Posunout nahoru"/>
+  <StrRes Name="sMoveDown" Text="Posunout dolù"/>
+  <StrRes Name="sExampleString" Text="Vzorový øetìzec"/>
+  <StrRes Name="sBold" Text="Tuèné"/>
+  <StrRes Name="sItalic" Text="Kurzíva"/>
+  <StrRes Name="sUnderline" Text="Podtržené"/>
+  <StrRes Name="sStrikeOut" Text="Pøeškrtnuté"/>
+  <StrRes Name="sSolidColor" Text="Plná barva"/>
+  <StrRes Name="sHorzGradient" Text="Vodorovný gradient"/>
+  <StrRes Name="sVertGradient" Text="Svislý gradient"/>
+  <StrRes Name="sHorzCenterGradient" Text="Vodorovný/støedový gradient"/>
+  <StrRes Name="sVertCenterGradient" Text="Svislý/støedový gradient"/>
+  <StrRes Name="sDiag1Gradient" Text="Diagonální gradient 1"/>
+  <StrRes Name="sDiag2Gradient" Text="Diagonální gradient 2"/>
+  <StrRes Name="sDiag1CenterGradient" Text="Diagonální/støedový gradient 1"/>
+  <StrRes Name="sDiag2CenterGradient" Text="Diagonální/støedový gradient 2"/>
+  <StrRes Name="sCorner1Gradient" Text="Rohový gradient 1"/>
+  <StrRes Name="sCorner2Gradient" Text="Rohový gradient 2"/>
+  <StrRes Name="sCorner3Gradient" Text="Rohový gradient 3"/>
+  <StrRes Name="sCorner4Gradient" Text="Rohový gradient 4"/>
+  <StrRes Name="sCenterGradient" Text="Støedový gradient"/>
+  <StrRes Name="sConfirmDelete" Text="Potvrzení vymazání"/>
+  <StrRes Name="sDimensionEditor" Text="Editor rozmìrù"/>
+  <StrRes Name="sUseTotalPositionFromMeasure" Text="Použít pro vrstvy pozice souètù"/>
+  <StrRes Name="sSortDirection" Text="Smìr tøídìní"/>
+  <StrRes Name="sExpand" Text="Rozbalit"/>
+  <StrRes Name="sCollapse" Text="Sbalit"/>
+  <StrRes Name="sExpandGroup" Text="Rozbalit skupinu"/>
+  <StrRes Name="sCollapseGroup" Text="Sbalit skupinu"/>
+  <StrRes Name="sExpandAll" Text="Rozbalit vše"/>
+  <StrRes Name="sCollapseAll" Text="Sbalit vše"/>
+  <StrRes Name="sMoveToGroup" Text="Pøesunout do skupiny"/>
+  <StrRes Name="sMoveFromGroup" Text="Pøesunout ze skupiny"/>
+  <StrRes Name="sDeleteGroup" Text="Smazat skupinu"/>
+  <StrRes Name="sRenameGroup" Text="Pøejmìnovat skupinu..."/>
+  <StrRes Name="sFilterOutThisItem" Text="Filtrovat tuto položku"/>
+  <StrRes Name="sFilterOutAllOtherItems" Text="Filtrovat všechny ostatní položky"/>
+  <StrRes Name="sHideNode" Text="Skrýt uzel"/>
+  <StrRes Name="sShowHiddenNodes" Text="Zobrazit skryté uzly"/>
+  <StrRes Name="sShowTopN" Text="Zobrazit Top N..."/>
+  <StrRes Name="sClearTopN" Text="Vymazat Top N"/>
+  <StrRes Name="sActiveTopN" Text="Aktivní Top N filtry: %d"/>
+  <StrRes Name="sAxisType" Text="Typ os"/>
+  <StrRes Name="sBefore" Text="Pøed"/>
+  <StrRes Name="sAfter" Text="Po"/>
+  <StrRes Name="sHide" Text="Skrýt"/>
+  <StrRes Name="sFromMeasure" Text="Z rozmìru"/>
+  <StrRes Name="sStandard" Text="Standardní"/>
+  <StrRes Name="sTreeLike" Text="Strom"/>
+  <StrRes Name="sCreateNew" Text="Vytvoøit nový"/>
+  <StrRes Name="sNewGroup" Text="Nová skupina"/>
+  <StrRes Name="sCreateANewGroup" Text="Vytvoøit novou skupinu"/>
+  <StrRes Name="sEnterANewGroupName" Text="Vložte jméno nové skupiny:"/>
+  <StrRes Name="sSort" Text="Tøídìní"/>
+  <StrRes Name="sRename" Text="Pøejmenovat..."/>
+  <StrRes Name="sMoveToPage" Text="Pøesunout na stranu"/>
+  <StrRes Name="sClearFilter" Text="Smazat filtr"/>
+  <StrRes Name="sSplits" Text="Rozdìlovníky"/>
+  <StrRes Name="sCreateNewGroup" Text="Vytvoøit novou skupinu..."/>
+  <StrRes Name="sCreateOtherGroup" Text="Vytvoøit &#60;jinou&#62; skupinu..."/>
+  <StrRes Name="sAddNewMeasure" Text="Pøidat nový rozmìr..."/>
+  <StrRes Name="sOther" Text="Ostatní"/>
+  <StrRes Name="sEnterOtherGroupCaption" Text="Vložte &#38;#60;jiný&#38;#62; nadpis pro skupinu:"/>
+  <StrRes Name="sAscending" Text="Od nejmenší hodnoty"/>
+  <StrRes Name="sDescending" Text="Od nejvìtší hodnoty"/>
+  <StrRes Name="sDay" Text="Den"/>
+  <StrRes Name="sMonth" Text="Mìsíc"/>
+  <StrRes Name="sQuarter" Text="Ètvrtletí"/>
+  <StrRes Name="sYear" Text="Rok"/>
+  <StrRes Name="sDayOfWeek" Text="Den v týdnu"/>
+  <StrRes Name="sWeekNumber" Text="Èíslo týdne"/>
+  <StrRes Name="sDayOfYear" Text="Den v roce"/>
+  <StrRes Name="sHour" Text="Hodina"/>
+  <StrRes Name="sMinute" Text="Minuta"/>
+  <StrRes Name="sSecond" Text="Sekunda"/>
+  <StrRes Name="sMillisecond" Text="Milisekunda"/>
+  <StrRes Name="sTimeSplits" Text="Rozdìlovníky pro èas"/>
+  <StrRes Name="sDateSplits" Text="Rozdìlovníky pro datum"/>
+  <StrRes Name="sDateAttribute" Text="Atributy data"/>
+  <StrRes Name="sTimeAttribute" Text="Atributy èasu"/>
+  <StrRes Name="sCalcForSelection" Text="Kalkulace výbìru"/>
+  <StrRes Name="sScale" Text="Škála"/>
+  <StrRes Name="sScaleSlider" Text="Posuvník škály"/>
+  <StrRes Name="sDimension" Text="Rozmìr"/>
+  <StrRes Name="sShow" Text="Zobrazit"/>
+  <StrRes Name="sCreateOthers" Text="Vytvoøit &#60;jiné&#62;"/>
+  <StrRes Name="sTopMax" Text="vìtšinou"/>
+  <StrRes Name="sTopMin" Text="nejménì"/>
+  <StrRes Name="sStylesEditor" Text="Editor stylù"/>
+  <StrRes Name="sCaptionArea" Text="Oblast nadpisu"/>
+  <StrRes Name="sHeaderArea" Text="Oblast záhlaví"/>
+  <StrRes Name="sHeaderCells" Text="Buòky záhlaví"/>
+  <StrRes Name="sHeaderCellsSelected" Text="Buòky záhlaví (vybrané)"/>
+  <StrRes Name="sDataArea" Text="Oblast dat"/>
+  <StrRes Name="sDataCells" Text="Buòky dat"/>
+  <StrRes Name="sDataCellsSelected" Text="Buòky dat (vybrané)"/>
+  <StrRes Name="sActiveDimension" Text="Aktivní rozmìry"/>
+  <StrRes Name="sInactiveDimension" Text="Neaktivní rozmìry"/>
+  <StrRes Name="sDataCellsTotals" Text="Buòky dat (souèty)"/>
+  <StrRes Name="sFieldsItem" Text="Položka polí"/>
+  <StrRes Name="sStatusArea" Text="Stavová oblast"/>
+  <StrRes Name="sHighlightRuleEditor" Text="Editor zvýraznìní hodnot"/>
+  <StrRes Name="sRangeHighlightCaption" Text="Pravidla pro zvýraznìní hodnot"/>
+  <StrRes Name="sRule" Text="Pravidlo (vyhodnocují se v poøadí)"/>
+  <StrRes Name="sCellValueBetween" Text="Hodnota buòky mezi %f a %f"/>
+  <StrRes Name="sCellValueBeyond" Text="Hodnota buòky mimo %f a %f"/>
+  <StrRes Name="sCellValueEqual" Text="Hodnota buòky = %f"/>
+  <StrRes Name="sCellValueNotEqual" Text="Hodnota buòky &#60;&#62; %f"/>
+  <StrRes Name="sCellValueGreater" Text="Hodnota buòky &#62; %f"/>
+  <StrRes Name="sCellValueLess" Text="Hodnota buòky &#60; %f"/>
+  <StrRes Name="sCellValueGreaterOrEqual" Text="Hodnota buòky &#62;= %f"/>
+  <StrRes Name="sCellValueLessOrEqual" Text="Hodnota buòky &#60;= %f"/>
+  <StrRes Name="sCellTextContains" Text="Hodnota buòky obsahuje '%s'"/>
+  <StrRes Name="sCellTextNotContains" Text="Hodnota buòky neobsahuje '%s'"/>
+  <StrRes Name="sCellTextStartsWith" Text="Hodnota buòky zaèíná na '%s'"/>
+  <StrRes Name="sCellTextEndsWith" Text="Hodnota buòky konèí na '%s'"/>
+  <StrRes Name="sCellValueIsNull" Text="Hodnota buòky je NULL"/>
+  <StrRes Name="sCellValueIsNotNull" Text="Hodnota buòky není NULL"/>
+  <StrRes Name="sCellValue" Text="Hodnota"/>
+  <StrRes Name="sCellText" Text="Text"/>
+  <StrRes Name="sCellDate" Text="Datum"/>
+  <StrRes Name="sCellNull" Text="Prázdný"/>
+  <StrRes Name="sCellNotNull" Text="Neprázdný"/>
+  <StrRes Name="sBetween" Text="mezi"/>
+  <StrRes Name="sBeyond" Text="mimo"/>
+  <StrRes Name="sEqual" Text="rovná se"/>
+  <StrRes Name="sNotEqual" Text="nerovná se"/>
+  <StrRes Name="sGreater" Text="vìtší než"/>
+  <StrRes Name="sLess" Text="menší než"/>
+  <StrRes Name="sGreaterOrEqual" Text="vìtší nebo rovno"/>
+  <StrRes Name="sLessOrEqual" Text="menší nebo rovno"/>
+  <StrRes Name="sContains" Text="obsahuje"/>
+  <StrRes Name="sNotContains" Text="neobsahuje"/>
+  <StrRes Name="sStartsWith" Text="zaèíná na"/>
+  <StrRes Name="sEndsWith" Text="konèí na"/>
+  <StrRes Name="sAnd" Text="a"/>
+  <StrRes Name="sOr" Text="nebo"/>
+  <StrRes Name="sEditStyle" Text="Styl..."/>
+  <StrRes Name="sStyleEditor" Text="Editor stylù"/>
+  <StrRes Name="sApplyTo" Text="Použít na"/>
+  <StrRes Name="sToCells" Text="Buòky"/>
+  <StrRes Name="sToTotals" Text="Souèty"/>
+  <StrRes Name="sToGrandTotal" Text="Úhrn souètù"/>
+  <StrRes Name="sContinuousHighlightCaption" Text="Zvýraznìní všech bunìk závisí na hodnotì"/>
+  <StrRes Name="sHighlightKind" Text="Typ zvýraznìní"/>
+  <StrRes Name="sTwoColorScale" Text="Škála dvou barev"/>
+  <StrRes Name="sThreeColorScale" Text="Škála tøí barev"/>
+  <StrRes Name="sBarChart" Text="Sloupcový graf"/>
+  <StrRes Name="sIconSet" Text="Sada ikon"/>
+  <StrRes Name="sMinValue" Text="Minimální hodnota"/>
+  <StrRes Name="sMinValueByRow" Text="Minimální hodnota øádku"/>
+  <StrRes Name="sMinValueByCol" Text="Minimální hodnota sloupce"/>
+  <StrRes Name="sMidValue" Text="Prùmìrná hodnota"/>
+  <StrRes Name="sMaxValue" Text="Maximální hodnota"/>
+  <StrRes Name="sMaxValueByRow" Text="Maximální hodnota øádku"/>
+  <StrRes Name="sMaxValueByCol" Text="Maximální hodnota sloupce"/>
+  <StrRes Name="sType" Text="Typ"/>
+  <StrRes Name="sValue" Text="Hodnota"/>
+  <StrRes Name="sColor" Text="Barva"/>
+  <StrRes Name="sNumber" Text="Èíslo"/>
+  <StrRes Name="sPercentByRow" Text="Procenta dle øádku"/>
+  <StrRes Name="sPercentByCol" Text="Procenta dle sloupce"/>
+  <StrRes Name="sPercentileByRow" Text="Percentil dle øádku"/>
+  <StrRes Name="sPercentileByCol" Text="Percentil dle sloupce"/>
+  <StrRes Name="sBarColor" Text="Barva sloupce"/>
+  <StrRes Name="sTheShortestBar" Text="Nejkratší sloupce"/>
+  <StrRes Name="sTheLongestBar" Text="Nejdelší sloupce"/>
+  <StrRes Name="sShowCellValue" Text="Zobrazit hodnotu buòky"/>
+  <StrRes Name="sGradientDraw" Text="Vykreslit pøechod"/>
+  <StrRes Name="sFrameColor" Text="Barva rámeèku"/>
+  <StrRes Name="sIfValue" Text="pokud hodnota"/>
+  <StrRes Name="sIfValue1" Text="pokud %s %g"/>
+  <StrRes Name="sReverseOrder" Text="Obrátit poøadí"/>
+  <StrRes Name="sIcon" Text="Ikona"/>
+  <StrRes Name="sNoIcon" Text="Žádná ikona"/>
+  <StrRes Name="sCustom" Text="Uživatelský"/>
+  <StrRes Name="sString" Text="Øetìzec"/>
+  <StrRes Name="sNumeric" Text="Èíslo"/>
+  <StrRes Name="sDateTime" Text="Datum/èas"/>
+  <StrRes Name="sSkipNullPoints" Text="Pøeskoèit prázdné body"/>
+  <StrRes Name="sBaseAxisDataType" Text="Datový typ pro základní osy"/>
+  <StrRes Name="sRangeEditor" Text="Editor rozsahu"/>
+  <StrRes Name="sCustomFilter" Text="Uživatelský filtr..."/>
+  <StrRes Name="sShowAvailable" Text="Zobrazit dostupné"/>
+  <StrRes Name="dtMeasures" Text="Measures"/>
+  <StrRes Name="dtDimensions" Text="Dimensions"/>
+  <StrRes Name="dtSliceFields" Text="SliceFields"/>
+</Resources>

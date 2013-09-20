@@ -22,6 +22,9 @@
   <StrRes Name="SHourPrefix" Text="Час_"/>
   <StrRes Name="SMinutePrefix" Text="Минута_"/>
   <StrRes Name="SSecondPrefix" Text="Секунда_"/>
+  <StrRes Name="SMillisecondPrefix" Text="Миллисекунда_"/>
+  <StrRes Name="sDateAttributeLabelPrefix" Text="Дата_"/>
+  <StrRes Name="sTimeAttributeLabelPrefix" Text="Время_"/>
   <StrRes Name="SCounter" Text="(счетчик)"/>
   <StrRes Name="SMeasures" Text="Показатели"/>
   <StrRes Name="SCounterItem" Text="Системный счетчик"/>
@@ -48,6 +51,7 @@
   <StrRes Name="sEditMeasures" Text="Редактор показателей"/>
   <StrRes Name="sMeasure" Text="Показатель"/>
   <StrRes Name="sMeasures" Text="Показатели"/>
+  <StrRes Name="sName" Text="Имя"/>
   <StrRes Name="sCaption" Text="Заголовок"/>
   <StrRes Name="sAggregate" Text="Агрегат:"/>
   <StrRes Name="sUseDifferentAggregateForTotals" Text="Использовать другой агрегат для итогов"/>
@@ -84,24 +88,35 @@
   <StrRes Name="sFieldLabelChangePropmpt" Text="Введите новое название поля"/>
   <StrRes Name="sCubeChangeCaption" Text="Смена названия куба "/>
   <StrRes Name="sCubeChangePropmpt" Text="Введите новое название куба "/>
-  <StrRes Name="sStatFormCaption" Text="Статистика по кросс-таблице"/>
-  <StrRes Name="sStatFormSourceRowCount" Text="Число строк исходных данных"/>
-  <StrRes Name="sStatFormSliceGeometry" Text="Геометрия среза"/>
-  <StrRes Name="sStatFormRowDimCount" Text="Количество измерений в строках"/>
-  <StrRes Name="sStatFormColDimCount" Text="Количество измерений в столбцах"/>
-  <StrRes Name="sStatFormFactsCount" Text="Количество мер"/>
-  <StrRes Name="sStatFormFilterCount" Text="Количество фильтрующих полей"/>
-  <StrRes Name="sStatFormTimeChar" Text="Временные характеристики (сек.)"/>
-  <StrRes Name="sStatFormTimeOpen" Text="Открытие исходных данных"/>
-  <StrRes Name="sStatFormTimeLoad" Text="Загрузка исходных данных"/>
-  <StrRes Name="sStatFormTimeSources" Text="Обработка исходных данных"/>
-  <StrRes Name="sStatFormTimeAxisX" Text="Построение оси X"/>
-  <StrRes Name="sStatFormTimeAxisY" Text="Построение оси Y"/>
-  <StrRes Name="sStatFormTimeFacts" Text="Построение мер"/>
-  <StrRes Name="sStatFormTimeLinks" Text="Заполнение ссылок"/>
-  <StrRes Name="sStatFormTimeUniques" Text="Заполнение уникальных значений"/>
-  <StrRes Name="sCubeSave" Text="Сохранить куб"/>
-  <StrRes Name="sCubeLoad" Text="Прочитать куб"/>
+  <StrRes Name="sInfoFormCaption" Text="Информация по кубу"/>
+  <StrRes Name="sInfoFormSliceGeometry" Text="Геометрия среза"/>
+  <StrRes Name="sInfoFormSourceRowCount" Text="Число строк исходных данных"/>
+  <StrRes Name="sInfoFormRowDimCount" Text="Количество измерений в строках"/>
+  <StrRes Name="sInfoFormColDimCount" Text="Количество измерений в столбцах"/>
+  <StrRes Name="sInfoFormFactsCount" Text="Количество мер"/>
+  <StrRes Name="sInfoFormFilterCount" Text="Количество фильтрующих полей"/>
+  <StrRes Name="sInfoFormColCount" Text="Количество столбцов"/>
+  <StrRes Name="sInfoFormRowCount" Text="Количество строк"/>
+  <StrRes Name="sInfoFormTimeChar" Text="Временные характеристики (сек.)"/>
+  <StrRes Name="sInfoFormFullTime" Text="Общее время загрузки данных куба"/>
+  <StrRes Name="sInfoFormDBOpenTime" Text="Открытие источника данных"/>
+  <StrRes Name="sInfoFormOpenTime" Text="Подготовка к загрузке"/>
+  <StrRes Name="sInfoFormDBMoveTime" Text="Перемещение по записям источника"/>
+  <StrRes Name="sInfoFormDBGetDataTime" Text="Получение значений из источника"/>
+  <StrRes Name="sInfoFormConvertTime" Text="Конвертирование значений"/>
+  <StrRes Name="sInfoFormDBCloseTime" Text="Закрытие источника данных"/>
+  <StrRes Name="sInfoFormSortTime" Text="Сортировка данных"/>
+  <StrRes Name="sInfoFormDataBuildTime" Text="Расчет показателей"/>
+  <StrRes Name="sInfoFormTimeSources" Text="Обработка исходных данных"/>
+  <StrRes Name="sInfoFormTimeAxisX" Text="Построение оси X"/>
+  <StrRes Name="sInfoFormTimeAxisY" Text="Построение оси Y"/>
+  <StrRes Name="sInfoFormTimeFacts" Text="Построение мер"/>
+  <StrRes Name="sInfoFormTimeLinks" Text="Заполнение ссылок"/>
+  <StrRes Name="sInfoFormTimeUniques" Text="Заполнение уникальных значений"/>
+  <StrRes Name="sSave" Text="Сохранить"/>
+  <StrRes Name="sLoad" Text="Загрузить"/>
+  <StrRes Name="sCubeLoad" Text="Загрузить куб"/>
+  <StrRes Name="sCubeLoadAdditional" Text="Загрузить дополнительный куб"/>
   <StrRes Name="sClearGrid" Text="Очистить"/>
   <StrRes Name="sSchemaSave" Text="Сохранить схему"/>
   <StrRes Name="sSchemaLoad" Text="Загрузить схему"/>
@@ -111,24 +126,20 @@
   <StrRes Name="sHideColZeros" Text="Скрыть нули в столбцах"/>
   <StrRes Name="sRowSort" Text="Сортировка строк"/>
   <StrRes Name="sColSort" Text="Сортировка столбцов"/>
-  <StrRes Name="sDataMarker" Text="Подсветка данных"/>
+  <StrRes Name="sDataMarker" Text="Выделение данных"/>
   <StrRes Name="sIncDecimal" Text="Увеличить точность"/>
   <StrRes Name="sDecDecimal" Text="Уменьшить точность"/>
   <StrRes Name="sAlignment" Text="Выравнивание"/>
   <StrRes Name="sRemoveToPage" Text="Перенести элементы в область фильтров"/>
   <StrRes Name="sDisplayAs" Text="Показывать"/>
   <StrRes Name="sFieldList" Text="Список полей"/>
-  <StrRes Name="sStatistics" Text="Статистика"/>
+  <StrRes Name="sInformation" Text="Информация"/>
   <StrRes Name="sFloatYAxis" Text="Привязка ширины вертикальных измерений"/>
   <StrRes Name="sTranspose" Text="Транспонировать"/>
   <StrRes Name="sSortByValues" Text="Сортировка по значению осей"/>
   <StrRes Name="sSortByTotals" Text="Сортировка по итогам показателя"/>
   <StrRes Name="sSortByXSelection" Text="Сортировка по активной строке"/>
   <StrRes Name="sSortByYSelection" Text="Сортировка по активному столбцу"/>
-  <StrRes Name="sExportToExcel" Text="Экспорт в Excel"/>
-  <StrRes Name="sExportToHTML" Text="Экспорт в Html"/>
-  <StrRes Name="sExportToWord" Text="Экспорт в Word"/>
-  <StrRes Name="sExportToXML" Text="Экспорт в XML"/>
   <StrRes Name="sOriginalValue" Text="Значение"/>
   <StrRes Name="sRowPercentTotal" Text="Процент по строке общий"/>
   <StrRes Name="sColPercentTotal" Text="Процент по столбцу общий"/>
@@ -177,7 +188,7 @@
   <StrRes Name="sStdDevSCaption" Text="См. ср. кв. откл."/>
   <StrRes Name="sFuncCaption" Text="Вычисление"/>
   <StrRes Name="sCountOfUniqueCaption" Text="Количество уникальных"/>
-  <StrRes Name="sFuncDetCaption" Text="Formula Detail"/>
+  <StrRes Name="sFuncDetCaption" Text="Вычисление на основе детализации"/>
   <StrRes Name="sDetailGridCaption" Text="Детализация ячейки"/>
   <StrRes Name="sLeftJustify" Text="По левому краю"/>
   <StrRes Name="sCenter" Text="По центру"/>
@@ -255,7 +266,7 @@
   <StrRes Name="sChartValuesAxis" Text="Использовать в качестве категорий"/>
   <StrRes Name="sChartSeriesFieldCount" Text="Число полей для имени ряда"/>
   <StrRes Name="sChartValuesFieldCount" Text="Число полей для имени категорий"/>
-  <StrRes Name="sChartMeasureFiledIndex" Text="Индекс показателя"/>
+  <StrRes Name="sChartMeasureFieldIndex" Text="Индекс показателя"/>
   <StrRes Name="sChartFrozen" Text="Заморозка диаграммы"/>
   <StrRes Name="sChartDataProperty" Text="Настройка диаграммы"/>
   <StrRes Name="sAxisX" Text="Измерения в столбцах"/>
@@ -287,9 +298,9 @@
   <StrRes Name="sChartStackSelfStack" Text="Self Stack"/>
   <StrRes Name="sLastValue" Text="Последнее значение"/>
   <StrRes Name="sLastValuePrefix" Text="Последнее значение из"/>
-  <StrRes Name="obfrcCube" Text="Объект &#38;#34;FastCube Cube&#38;#34;"/>
-  <StrRes Name="obfrcChartView" Text="Объект &#38;#34;Диаграмма FastCube&#38;#34;"/>
-  <StrRes Name="obfrcCrossView" Text="Объект &#38;#34;FastCube Cross-tab&#38;#34;"/>
+  <StrRes Name="obfrcCube" Text="Объект &#38;#34;FastCube 2 Куб&#38;#34;"/>
+  <StrRes Name="obfrcChartView" Text="Объект &#38;#34;FastCube 2 Диаграмма&#38;#34;"/>
+  <StrRes Name="obfrcCrossView" Text="Объект &#38;#34;FastCube 2 Кросс-таб&#38;#34;"/>
   <StrRes Name="sMeasureEditor" Text="Редактор показателей"/>
   <StrRes Name="sGeneral" Text="Общая"/>
   <StrRes Name="sCaption" Text="Заголовок"/>
@@ -299,6 +310,7 @@
   <StrRes Name="sCalculated" Text="Вычисляемый"/>
   <StrRes Name="sFunction" Text="Функция"/>
   <StrRes Name="sOrder" Text="Порядок"/>
+  <StrRes Name="sCalcAllCells" Text="Вычислять все ячейки"/>
   <StrRes Name="sTotals" Text="Итоги"/>
   <StrRes Name="sFiltering" Text="Фильтрация"/>
   <StrRes Name="sStyle" Text="Стиль"/>
@@ -349,6 +361,8 @@
   <StrRes Name="sHideNode" Text="Скрыть узел"/>
   <StrRes Name="sShowHiddenNodes" Text="Показать скрытые узлы"/>
   <StrRes Name="sShowTopN" Text="Показать первые N..."/>
+  <StrRes Name="sClearTopN" Text="Сброс первых N"/>
+  <StrRes Name="sActiveTopN" Text="Активных первых N фильтров: %d"/>
   <StrRes Name="sAxisType" Text="Тип оси"/>
   <StrRes Name="sBefore" Text="До"/>
   <StrRes Name="sAfter" Text="После"/>
@@ -382,17 +396,19 @@
   <StrRes Name="sHour" Text="Час"/>
   <StrRes Name="sMinute" Text="Минута"/>
   <StrRes Name="sSecond" Text="Секунда"/>
+  <StrRes Name="sMillisecond" Text="Миллисекунда"/>
   <StrRes Name="sTimeSplits" Text="Разбивка времени"/>
   <StrRes Name="sDateSplits" Text="Разбивка даты"/>
+  <StrRes Name="sDateAttribute" Text="Атрибут Дата"/>
+  <StrRes Name="sTimeAttribute" Text="Атрибут Время"/>
   <StrRes Name="sCalcForSelection" Text="Вычислять для выделения"/>
   <StrRes Name="sScale" Text="Масштаб"/>
   <StrRes Name="sScaleSlider" Text="Ползунок масштаба"/>
   <StrRes Name="sDimension" Text="Измерение"/>
   <StrRes Name="sShow" Text="Показать"/>
   <StrRes Name="sCreateOthers" Text="Создать &#38;#60;другие&#38;#62;"/>
-  <StrRes Name="sTopMost" Text="наибольших"/>
-  <StrRes Name="sTopLeast" Text="наименьших"/>
-  <StrRes Name="sTopCenter" Text="центральных"/>
+  <StrRes Name="sTopMax" Text="наибольших"/>
+  <StrRes Name="sTopMin" Text="наименьших"/>
   <StrRes Name="sStylesEditor" Text="Редактор стилей"/>
   <StrRes Name="sCaptionArea" Text="Область заголовка"/>
   <StrRes Name="sHeaderArea" Text="Область шапки"/>
@@ -423,10 +439,11 @@
   <StrRes Name="sCellTextEndsWith" Text="Текст ячейки заканчивается на '%s'"/>
   <StrRes Name="sCellValueIsNull" Text="Значение ячейки пусто"/>
   <StrRes Name="sCellValueIsNotNull" Text="Значение ячейки не пусто"/>
-  <StrRes Name="sCellValue" Text="Значение ячейки"/>
-  <StrRes Name="sCellText" Text="Текст ячейки"/>
-  <StrRes Name="sCellNull" Text="Пустая ячейка"/>
-  <StrRes Name="sCellNotNull" Text="Не пустая ячейка"/>
+  <StrRes Name="sCellValue" Text="Значение"/>
+  <StrRes Name="sCellText" Text="Текст"/>
+  <StrRes Name="sCellDate" Text="Дата"/>
+  <StrRes Name="sCellNull" Text="Пустое значение"/>
+  <StrRes Name="sCellNotNull" Text="Не пустое значение"/>
   <StrRes Name="sBetween" Text="между"/>
   <StrRes Name="sBeyond" Text="вне"/>
   <StrRes Name="sEqual" Text="равно"/>
@@ -440,6 +457,7 @@
   <StrRes Name="sStartsWith" Text="начинается с"/>
   <StrRes Name="sEndsWith" Text="заканчивается на"/>
   <StrRes Name="sAnd" Text="и"/>
+  <StrRes Name="sOr" Text="или"/>
   <StrRes Name="sEditStyle" Text="Стиль..."/>
   <StrRes Name="sStyleEditor" Text="Редактор стиля"/>
   <StrRes Name="sApplyTo" Text="Применять к"/>
@@ -479,4 +497,15 @@
   <StrRes Name="sIcon" Text="Иконка"/>
   <StrRes Name="sNoIcon" Text="Нет иконки"/>
   <StrRes Name="sCustom" Text="Произвольный"/>
+  <StrRes Name="sString" Text="Строка"/>
+  <StrRes Name="sNumeric" Text="Число"/>
+  <StrRes Name="sDateTime" Text="Дата-Время"/>
+  <StrRes Name="sSkipNullPoints" Text="Пропускать пустые точки"/>
+  <StrRes Name="sBaseAxisDataType" Text="Тип данных основной оси"/>
+  <StrRes Name="sRangeEditor" Text="Редактор диапазона"/>
+  <StrRes Name="sCustomFilter" Text="Настроить фильтр..."/>
+  <StrRes Name="sShowAvailable" Text="Отображать доступные"/>
+  <StrRes Name="dtMeasures" Text="Показатели"/>
+  <StrRes Name="dtDimensions" Text="Измерения"/>
+  <StrRes Name="dtSliceFields" Text="Поля"/>
 </Resources>

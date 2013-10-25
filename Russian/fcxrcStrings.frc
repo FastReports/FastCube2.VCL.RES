@@ -123,6 +123,7 @@ sInfoFormTimeUniques=Заполнение уникальных значений
 // service menu captions
 sSave=Сохранить
 sLoad=Загрузить
+sCubeSave=Сохранить куб
 sCubeLoad=Загрузить куб
 sCubeLoadAdditional=Загрузить дополнительный куб
 sClearGrid=Очистить

@@ -115,6 +115,7 @@
   <StrRes Name="sInfoFormTimeUniques" Text="Filling unique values"/>
   <StrRes Name="sSave" Text="Save"/>
   <StrRes Name="sLoad" Text="Load"/>
+  <StrRes Name="sCubeSave" Text="Save cube"/>
   <StrRes Name="sCubeLoad" Text="Load cube"/>
   <StrRes Name="sCubeLoadAdditional" Text="Load additional cube"/>
   <StrRes Name="sClearGrid" Text="Clear grid"/>

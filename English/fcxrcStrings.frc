@@ -123,6 +123,7 @@ sInfoFormTimeUniques=Filling unique values
 // menu captions
 sSave=Save
 sLoad=Load
+sCubeSave=Save cube
 sCubeLoad=Load cube
 sCubeLoadAdditional=Load additional cube
 sClearGrid=Clear grid

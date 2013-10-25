@@ -115,6 +115,7 @@
   <StrRes Name="sInfoFormTimeUniques" Text="Заполнение уникальных значений"/>
   <StrRes Name="sSave" Text="Сохранить"/>
   <StrRes Name="sLoad" Text="Загрузить"/>
+  <StrRes Name="sCubeSave" Text="Сохранить куб"/>
   <StrRes Name="sCubeLoad" Text="Загрузить куб"/>
   <StrRes Name="sCubeLoadAdditional" Text="Загрузить дополнительный куб"/>
   <StrRes Name="sClearGrid" Text="Очистить"/>

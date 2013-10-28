@@ -8,6 +8,22 @@ FastCube enables you to analyze data and to build summary tables (data cut-offs)
 - Russian
 - Czech
 
+## Current partial translations
+
+- Brazil
+- Dutch
+- French
+- German
+- Greek
+- Hungarian
+- Italian
+- Lithuanian
+- Polish
+- Portuguese
+- Spanish
+- Swedish
+- Turkish
+
 ## How to install
 
 It is possible to use translation in 2 variants:

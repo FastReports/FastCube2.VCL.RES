@@ -253,5 +253,6 @@
   <StrRes Name="sXMLExt" Text=".xml"/>
   <StrRes Name="sRepeatAxesValues" Text="Repeat axes values"/>
   <StrRes Name="sHTMLFormat" Text="HTML format"/>
+  <StrRes Name="sUseDefaultPalette" Text="Use Default Palette"/>
 
 </Resources>

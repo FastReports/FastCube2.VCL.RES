@@ -256,4 +256,5 @@
   <StrRes Name="sXMLExt" Text=".xml"/>
   <StrRes Name="sRepeatAxesValues" Text="Повторять значения осей"/>
   <StrRes Name="sHTMLFormat" Text="Формат HTML"/>
+  <StrRes Name="sUseDefaultPalette" Text="Палитра по умолчанию"/>
 </Resources>

@@ -205,4 +205,5 @@
   <StrRes Name="9110" Text="Text files (*.txt)|*.txt|All files|*.*"/>
   <StrRes Name="9111" Text="DBF files (*.dbf)|*.dbf|All files|*.*"/> 
   <StrRes Name="expMailAddr" Text="Address or addresses delimited by comma"/>  
+  <StrRes Name="sUseDefaultPalette" Text="Use Default Palette"/>
 </Resources>

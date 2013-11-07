@@ -282,4 +282,5 @@
   <StrRes Name="sXMLExt" Text=".xml"/>
   <StrRes Name="sRepeatAxesValues" Text="Opakovat hodnoty os"/>
   <StrRes Name="sHTMLFormat" Text="HTML formát"/>
+  <StrRes Name="sUseDefaultPalette" Text="Use Default Palette"/>
 </Resources>

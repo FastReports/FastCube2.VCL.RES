@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Resources CodePage="1252">
   <StrRes Name="2000" Text="Inspector de Objectos"/>
   <StrRes Name="oiProp" Text="Propriedades"/>
@@ -95,16 +95,16 @@
   <StrRes Name="2375" Text="Ferramenta Editar Texto"/>
   <StrRes Name="2376" Text="Ferramenta Copiar Formatação"/>
   <StrRes Name="2377" Text="Inserir Banda"/>
-  <StrRes Name="2378" Text="&amp;Ficheiro"/>
-  <StrRes Name="2379" Text="&amp;Editar"/>
+  <StrRes Name="2378" Text="&#38;Ficheiro"/>
+  <StrRes Name="2379" Text="&#38;Editar"/>
   <StrRes Name="2380" Text="Localizar..."/>
   <StrRes Name="2381" Text="Localizar Próximo"/>
   <StrRes Name="2382" Text="Substituir..."/>
-  <StrRes Name="2383" Text="&amp;Relatório"/>
+  <StrRes Name="2383" Text="&#38;Relatório"/>
   <StrRes Name="2384" Text="Dados..."/>
   <StrRes Name="2385" Text="Opções..."/>
   <StrRes Name="2386" Text="Estilos..."/>
-  <StrRes Name="2387" Text="&amp;Ver"/>
+  <StrRes Name="2387" Text="&#38;Ver"/>
   <StrRes Name="2388" Text="Barras de Ferramentas"/>
   <StrRes Name="2389" Text="Padrão"/>
   <StrRes Name="2390" Text="Texto"/>
@@ -118,7 +118,7 @@
   <StrRes Name="2398" Text="Guias"/>
   <StrRes Name="2399" Text="Apagar Guias"/>
   <StrRes Name="2400" Text="Opções..."/>
-  <StrRes Name="2401" Text="&amp;Ajuda"/>
+  <StrRes Name="2401" Text="&#38;Ajuda"/>
   <StrRes Name="2402" Text="Conteúdo da Ajuda..."/>
   <StrRes Name="2403" Text="Sobre o FastReport..."/>
   <StrRes Name="2404" Text="Ordem das Tabulações..."/>
@@ -522,6 +522,7 @@
   <StrRes Name="4726" Text="Separar do relatório base"/>
   <StrRes Name="4727" Text="Herdar do relatório base:"/>
   <StrRes Name="4728" Text="Hereditariedade"/>
+  <StrRes Name="4729" Text="Templates path :"/>
   <StrRes Name="rePrnOnPort" Text="em"/>
   <StrRes Name="riNotInherited" Text="Este relatório não é herdado."/>
   <StrRes Name="riInherited" Text="Este relatório é herdado do relatório base: %s"/>
@@ -735,6 +736,9 @@
   <StrRes Name="obFIBTb" Text="Tabela FIB"/>
   <StrRes Name="obFIBQ" Text="Query FIB"/>
   <StrRes Name="obFIBComps" Text="Componentes FIB"/>
+  <StrRes Name="obDataBases" Text="DataBases"/>
+  <StrRes Name="obTables" Text="Tables"/>
+  <StrRes Name="obQueries" Text="Queries"/>
   <StrRes Name="ctString" Text="Texto"/>
   <StrRes Name="ctDate" Text="Data e Hora"/>
   <StrRes Name="ctConv" Text="Conversão"/>
@@ -843,4 +847,8 @@
   <StrRes Name="6002" Text="Apagar duplicados"/>
   <StrRes Name="6003" Text="Renomear duplicados"/>
   <StrRes Name="6004" Text="Ordenar por nome"/>
+  <StrRes Name="crGroup" Text="Group"/>
+  <StrRes Name="4331" Text="Grouping"/>
+  <StrRes Name="BoolToStr" Text="Returns the True string if B is true, otherwise returns the False string"/>
+  <StrRes Name="StrToBool" Text="Returns true if S='True', false if S='False'. If S can't be converted, an exception is raised."/>
 </Resources>

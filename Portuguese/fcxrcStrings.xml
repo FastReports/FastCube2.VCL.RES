@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Resources CodePage="1252">
   <StrRes Name="SOkBtn" Text="OK"/>
   <StrRes Name="SCancelBtn" Text="Cancelar"/>
+  <StrRes Name="sApplyBtn" Text="Aplicar"/>
   <StrRes Name="sEditBtn" Text="Editar ..."/>
   <StrRes Name="sAddBtn" Text="Adicionar ..."/>
   <StrRes Name="sDeleteBtn" Text="Apagar"/>
@@ -10,6 +11,7 @@
   <StrRes Name="sCheckBtn" Text="Verificar"/>
   <StrRes Name="sNoErrors" Text="Sem erros"/>
   <StrRes Name="sConfirmClearSchema" Text="Pretende apagar a congifuração da grelha?"/>
+  <StrRes Name="sNull" Text="Nulo"/>
   <StrRes Name="sTrue" Text="Verdadeiro"/>
   <StrRes Name="sFalse" Text="Falso"/>
   <StrRes Name="SDayPrefix" Text="Dia_"/>
@@ -20,6 +22,9 @@
   <StrRes Name="SHourPrefix" Text="Hora_"/>
   <StrRes Name="SMinutePrefix" Text="Minuto_"/>
   <StrRes Name="SSecondPrefix" Text="Segundo_"/>
+  <StrRes Name="SMillisecondPrefix" Text="Milissegundo_"/>
+  <StrRes Name="sDateAttributeLabelPrefix" Text="Data_"/>
+  <StrRes Name="sTimeAttributeLabelPrefix" Text="Hora_"/>
   <StrRes Name="SCounter" Text="(contador)"/>
   <StrRes Name="SMeasures" Text="Medições"/>
   <StrRes Name="SCounterItem" Text="Contador de sistema"/>
@@ -32,6 +37,7 @@
   <StrRes Name="sCellAlreadyExist" Text="Célula de dados já existe"/>
   <StrRes Name="sUnknownCubeFormat" Text="Formato desconhecido!"/>
   <StrRes Name="STotal" Text="Total"/>
+  <StrRes Name="sGrandTotal" Text="Total geral"/>
   <StrRes Name="STotalBy" Text="Total de "/>
   <StrRes Name="SNothing" Text="Valor"/>
   <StrRes Name="sSchemaFilter" Text="Cube schema files|*.mds"/>
@@ -45,8 +51,18 @@
   <StrRes Name="sEditMeasures" Text="Editar Medições"/>
   <StrRes Name="sMeasure" Text="Medição"/>
   <StrRes Name="sMeasures" Text="Medições"/>
-  <StrRes Name="sCaption" Text="Rótulo"/>
-  <StrRes Name="sAggregate" Text="Agregado:"/>
+  <StrRes Name="sName" Text="Nome"/>
+  <StrRes Name="sCaption" Text="Legenda"/>
+  <StrRes Name="sAggregate" Text="Agregado"/>
+  <StrRes Name="sUseDifferentAggregateForTotals" Text="Usar agregados diferentes para os totais"/>
+  <StrRes Name="sCalcTotalsOnTotals" Text="Calcular totais em totais"/>
+  <StrRes Name="sUseXAxisTotalsAsBase" Text="Usar totais de colunas como base"/>
+  <StrRes Name="sTotalsConflictResolving" Text="Resolução de conflitos de totais"/>
+  <StrRes Name="sTotalPosition" Text="Posição do total"/>
+  <StrRes Name="sAdditionalTotals" Text="Totais adicionais"/>
+  <StrRes Name="sEmptyCell" Text="Célula vazia"/>
+  <StrRes Name="sUseXAxisTotal" Text="Usar total da coluna"/>
+  <StrRes Name="sUseYAxisTotal" Text="Usar total da fileira"/>
   <StrRes Name="sDigitsAfter" Text="Precisão:"/>
   <StrRes Name="sAggAlreadyExist" Text="Agregado já existe!"/>
   <StrRes Name="sField" Text="Agregado do campo:"/>
@@ -60,9 +76,8 @@
   <StrRes Name="sIncorrectPrecision" Text="Precisão incorrecta: [%d]. A precisão deve ser um número inteiro &#38;#62;= 0! "/>
   <StrRes Name="sIncorrectCalcOrder" Text="Ordem de cálculo incorrecta: [%d]. A ordem de cálculo deve ser um inteiro entre %d e %d!"/>
   <StrRes Name="sDisplayFormat" Text="Formato"/>
-  <StrRes Name="sFilterAll" Text="Todos"/>
-  <StrRes Name="sFilterFirst" Text="Primeiro"/>
-  <StrRes Name="sFilterInversion" Text="Inversão"/>
+  <StrRes Name="sClearAll" Text="Limpar tudo"/>
+  <StrRes Name="sInverse" Text="Inverso"/>
   <StrRes Name="sFieldFormCaption" Text="Lista de campos"/>
   <StrRes Name="sFieldFormDragLabel" Text="Mover para a grelha"/>
   <StrRes Name="sFieldformAddBtn" Text="Adicionar a"/>
@@ -73,35 +88,36 @@
   <StrRes Name="sFieldLabelChangePropmpt" Text="Introduza o novo rótulo do campo"/>
   <StrRes Name="sCubeChangeCaption" Text="Alterar o título"/>
   <StrRes Name="sCubeChangePropmpt" Text="Introduza o novo título"/>
-  <StrRes Name="sStatFormCaption" Text="Estatísticas da análise"/>
-  <StrRes Name="sStatFormSourceRowCount" Text="Nº de linhas na origem"/>
-  <StrRes Name="sStatFormSliceGeometry" Text="Geometria do subconjunto de dados"/>
-  <StrRes Name="sStatFormRowDimCount" Text="Nº de dimensões nas linhas"/>
-  <StrRes Name="sStatFormColDimCount" Text="Nº de dimensões nas colunas"/>
-  <StrRes Name="sStatFormFactsCount" Text="Nº de medições"/>
-  <StrRes Name="sStatFormFilterCount" Text="Nº de campos no filtro"/>
-  <StrRes Name="sStatFormTimeChar" Text="Tempos (segundos)"/>
-  <StrRes Name="sStatFormTimeOpen" Text="Abertura da origem"/>
-  <StrRes Name="sStatFormTimeLoad" Text="Carregamento dos dados originais"/>
-  <StrRes Name="sStatFormTimeSources" Text="Processamento dos dados originais"/>
-  <StrRes Name="sStatFormTimeAxisX" Text="Construção do eixo X"/>
-  <StrRes Name="sStatFormTimeAxisY" Text="Construção do eixo Y"/>
-  <StrRes Name="sStatFormTimeFacts" Text="Construção das medições"/>
-  <StrRes Name="sStatFormTimeLinks" Text="Determinação das ligações"/>
-  <StrRes Name="sStatFormTimeUniques" Text="Determinação dos valores distintos"/>
-  <StrRes Name="sRangeFormCaption" Text="Marcação de dados"/>
-  <StrRes Name="sRangeFormFieldRanges" Text="Dados a marcar"/>
-  <StrRes Name="sRangeFormRanges" Text="Intervalos"/>
-  <StrRes Name="sRangeFormRangeParams" Text="Intervalo de valores a marcar"/>
-  <StrRes Name="sRangeFormColor" Text="Cor"/>
-  <StrRes Name="sRangeFormReplace" Text="Substituir"/>
-  <StrRes Name="sRangeFormAdd" Text="Adicionar"/>
-  <StrRes Name="sRangeFormDelete" Text="Apagar"/>
-  <StrRes Name="sAllRange" Text="Todos os valores"/>
-  <StrRes Name="sTextColor" Text="Cor do texto"/>
-  <StrRes Name="sBGColor" Text="Cor do fundo"/>
+  <StrRes Name="sInfoFormCaption" Text="Informações do cubo"/>
+  <StrRes Name="sInfoFormSliceGeometry" Text="Geometria da fatia"/>
+  <StrRes Name="sInfoFormSourceRowCount" Text="Contagem das fileiras de origem"/>
+  <StrRes Name="sInfoFormRowDimCount" Text="Contagem das dimensões de fileiras"/>
+  <StrRes Name="sInfoFormColDimCount" Text="Contagem das dimensões de colunas"/>
+  <StrRes Name="sInfoFormFactsCount" Text="Contagem de medidas"/>
+  <StrRes Name="sInfoFormFilterCount" Text="Contagem de campos de filtro"/>
+  <StrRes Name="sInfoFormColCount" Text="Contagem de colunas"/>
+  <StrRes Name="sInfoFormRowCount" Text="Contagem de fileiras"/>
+  <StrRes Name="sInfoFormTimeChar" Text="Características de hora (seg.)"/>
+  <StrRes Name="sInfoFormFullTime" Text="Tempo de carregamento completo"/>
+  <StrRes Name="sInfoFormDBOpenTime" Text="Abrindo fontes de dados"/>
+  <StrRes Name="sInfoFormOpenTime" Text="Preparando o carregamento"/>
+  <StrRes Name="sInfoFormDBMoveTime" Text="Buscando dados"/>
+  <StrRes Name="sInfoFormDBGetDataTime" Text="Obtendo valores"/>
+  <StrRes Name="sInfoFormConvertTime" Text="Convertendo valores"/>
+  <StrRes Name="sInfoFormDBCloseTime" Text="Fechando fontes de dados"/>
+  <StrRes Name="sInfoFormSortTime" Text="Classificando dados"/>
+  <StrRes Name="sInfoFormDataBuildTime" Text="Medidas de cálculo"/>
+  <StrRes Name="sInfoFormTimeSources" Text="Processando fontes"/>
+  <StrRes Name="sInfoFormTimeAxisX" Text="Criando o eixo X"/>
+  <StrRes Name="sInfoFormTimeAxisY" Text="Criando o eixo Y"/>
+  <StrRes Name="sInfoFormTimeFacts" Text="Criando medidas"/>
+  <StrRes Name="sInfoFormTimeLinks" Text="Preenchendo vínculos"/>
+  <StrRes Name="sInfoFormTimeUniques" Text="Preenchendo valores únicos"/>
+  <StrRes Name="sSave" Text="Salvar"/>
+  <StrRes Name="sLoad" Text="Carregar"/>
   <StrRes Name="sCubeSave" Text="Guardar cubo"/>
   <StrRes Name="sCubeLoad" Text="Abrir cubo"/>
+  <StrRes Name="sCubeLoadAdditional" Text="Carregar cubo adicional"/>
   <StrRes Name="sClearGrid" Text="Limpar grelha"/>
   <StrRes Name="sSchemaSave" Text="Guardar esquema"/>
   <StrRes Name="sSchemaLoad" Text="Abrir esquema"/>
@@ -116,32 +132,30 @@
   <StrRes Name="sDecDecimal" Text="Reduzir precisão"/>
   <StrRes Name="sAlignment" Text="Alinhamento"/>
   <StrRes Name="sRemoveToPage" Text="Mover itens para a área da página"/>
-  <StrRes Name="sDisplayAs" Text="Mostrar como..."/>
+  <StrRes Name="sDisplayAs" Text="Exibir como"/>
   <StrRes Name="sFieldList" Text="Lista de campos"/>
-  <StrRes Name="sStatistics" Text="Estatísticas"/>
+  <StrRes Name="sInformation" Text="Informações"/>
   <StrRes Name="sFloatYAxis" Text="Eixo Y flutuante"/>
+  <StrRes Name="sTranspose" Text="Transpor"/>
   <StrRes Name="sSortByValues" Text="Ordenar pelos valores do eixo"/>
   <StrRes Name="sSortByTotals" Text="Ordenar pelos totais"/>
   <StrRes Name="sSortByXSelection" Text="Ordenar pela linha seleccionada"/>
   <StrRes Name="sSortByYSelection" Text="Ordenar pela coluna seleccionada"/>
-  <StrRes Name="sExportToExcel" Text="Exportar para Excel"/>
-  <StrRes Name="sExportToHTML" Text="Exportar para Html"/>
-  <StrRes Name="sExportToWord" Text="Exportar para Word"/>
-  <StrRes Name="sExportToXML" Text="Exportar para Xml"/>
   <StrRes Name="sOriginalValue" Text="Valor original"/>
   <StrRes Name="sRowPercentTotal" Text="Percentagem total por linha"/>
   <StrRes Name="sColPercentTotal" Text="Percentagem total por coluna"/>
   <StrRes Name="sRowPercentGroup" Text="Grupo percentual por linha"/>
   <StrRes Name="sColPercentGroup" Text="Grupo percentual por coluna"/>
   <StrRes Name="sGrandTotalPercent" Text="Percentagem total geral"/>
-  <StrRes Name="sBackSort" Text="Alterar o sentido de ordenação"/>
-  <StrRes Name="sShowTotals" Text="Mostrar totais"/>
-  <StrRes Name="sCollapseDimension" Text="Condensar dimensão"/>
-  <StrRes Name="sExpandDimension" Text="Expandir dimensão"/>
+  <StrRes Name="sRowRank" Text="Classificar por fileira"/>
+  <StrRes Name="sColRank" Text="Classificar por coluna"/>
+  <StrRes Name="sSelect" Text="Selecionar"/>
   <StrRes Name="sSelectRow" Text="Seleccionar linha"/>
   <StrRes Name="sSelectCol" Text="Seleccionar coluna"/>
   <StrRes Name="sSelectAll" Text="Seleccionar tudo"/>
   <StrRes Name="sCopy" Text="Copiar"/>
+  <StrRes Name="sDeleteMeasure" Text="Excluir medida"/>
+  <StrRes Name="sProperties" Text="Propriedades..."/>
   <StrRes Name="sQuarter_1" Text="1ºTrimestre"/>
   <StrRes Name="sQuarter_2" Text="2ºTrimestre"/>
   <StrRes Name="sQuarter_3" Text="3ºTrimestre"/>
@@ -175,6 +189,7 @@
   <StrRes Name="sStdDevSCaption" Text="Desvio Padrão S"/>
   <StrRes Name="sFuncCaption" Text="Cálculo"/>
   <StrRes Name="sCountOfUniqueCaption" Text="Contagem de distintos"/>
+  <StrRes Name="sFuncDetCaption" Text="Cálculo (detalhe)"/>
   <StrRes Name="sLinkToSelf" Text="Referencia para si próprio! Código=%d."/>
   <StrRes Name="sParentNotFound" Text="Pai não encontrado! Código=%d."/>
   <StrRes Name="sLoopLink" Text="Referência circular! Código=%d."/>
@@ -183,17 +198,10 @@
   <StrRes Name="sErCommentNotClosed" Text="Comentário não terminado!"/>
   <StrRes Name="sErMixDigitChar" Text="Mistura de dígitos com letras!"/>
   <StrRes Name="sErUnfinishedIdent" Text="Declaração de identificador incompleta"/>
-  <StrRes Name="sDetailGridCaption" Text="Detalhe da célula"/>
-  <StrRes Name="sLeftJustify" Text="esquerda"/>
+  <StrRes Name="sDetailGridCaption" Text="Detalhes da célula"/>
+  <StrRes Name="sLeftJustify" Text="Justificar à esquerda"/>
   <StrRes Name="sCenter" Text="centro"/>
-  <StrRes Name="sRightJustify" Text="direita"/>
-  <StrRes Name="sPopupHint1" Text="Seleccionar tudo"/>
-  <StrRes Name="sPopupHint2" Text="Remover selecções"/>
-  <StrRes Name="sPopupHint3" Text="Inverter selecção"/>
-  <StrRes Name="sPopupHint4" Text="Aplicar"/>
-  <StrRes Name="sPopupHint5" Text="Cancelar"/>
-  <StrRes Name="sPopupHint6" Text="Mover para cima"/>
-  <StrRes Name="sPopupHint7" Text="Mover para baixo"/>
+  <StrRes Name="sRightJustify" Text="Justificar à direita"/>
   <StrRes Name="sPopupHint8" Text="Expandir tudo"/>
   <StrRes Name="sPopupHint9" Text="Condensar tudo"/>
   <StrRes Name="sFormulaEditor" Text="Editor de fórmulas"/>
@@ -243,7 +251,7 @@
   <StrRes Name="sConvLoadFromFile" Text="Abrir"/>
   <StrRes Name="sConvNoType" Text="Tipo alvo necessário!"/>
   <StrRes Name="sConvNoSize" Text="Tamanho alvo tem de ser &#38;#62; 0!"/>
-  <StrRes Name="dmSelectExample" Text="Mostrar exemplo"/>
+  <StrRes Name="dmSelectExample" Text="Selecionar exemplo"/>
   <StrRes Name="dmSchema" Text="Esquemas"/>
   <StrRes Name="dmFRPreview" Text="Vusualizar no FastReport"/>
   <StrRes Name="dmCrossTbl" Text="Grelha"/>
@@ -259,7 +267,7 @@
   <StrRes Name="sChartValuesAxis" Text="Usar como categorias:"/>
   <StrRes Name="sChartSeriesFieldCount" Text="N. Campos das séries:"/>
   <StrRes Name="sChartValuesFieldCount" Text="N. Campos das categorias:"/>
-  <StrRes Name="sChartMeasureFiledIndex" Text="Indice das Medições:"/>
+  <StrRes Name="sChartMeasureFieldIndex" Text="Indice da medida:"/>
   <StrRes Name="sChartFrozen" Text="Gráfico congelado"/>
   <StrRes Name="sChartDataProperty" Text="Propriedades do gráfico"/>
   <StrRes Name="sAxisX" Text="Dimensões das colunas"/>
@@ -291,272 +299,215 @@
   <StrRes Name="sChartStackSelfStack" Text="Self Stack"/>
   <StrRes Name="sLastValue" Text="Last value"/>
   <StrRes Name="sLastValuePrefix" Text="Last value of "/>
-  <StrRes Name="obfrcCube" Text="FastCube Cube Objecto"/>
-  <StrRes Name="obfrcChartView" Text="FastCube Gráfico"/>
-  <StrRes Name="obfrcCrossView" Text="FastCube Grelha Cross-tab"/>
-  <StrRes Name="fc2600" Text="Sobre o FastCube"/>
-  <StrRes Name="fc2601" Text="Visite a nossa página:"/>
-  <StrRes Name="fc2602" Text="Vendas:"/>
-  <StrRes Name="fc2603" Text="Suporte:"/>
-  <StrRes Name="sSliceEditorCaption" Text="Slice Editor"/>
-  <StrRes Name="sApplyBtn" Text="Apply"/>
-  <StrRes Name="sNull" Text="Null"/>
-  <StrRes Name="SMillisecondPrefix" Text="Millisecond_"/>
-  <StrRes Name="sDateAttributeLabelPrefix" Text="Date_"/>
-  <StrRes Name="sTimeAttributeLabelPrefix" Text="Time_"/>
-  <StrRes Name="sGrandTotal" Text="Grand total"/>
-  <StrRes Name="sName" Text="Name"/>
-  <StrRes Name="sUseDifferentAggregateForTotals" Text="Use different aggregate for totals"/>
-  <StrRes Name="sCalcTotalsOnTotals" Text="Calculate totals on totals"/>
-  <StrRes Name="sUseXAxisTotalsAsBase" Text="Use column totals as base"/>
-  <StrRes Name="sTotalsConflictResolving" Text="Totals conflict resolution"/>
-  <StrRes Name="sTotalPosition" Text="Total position"/>
-  <StrRes Name="sAdditionalTotals" Text="Additional Totals"/>
-  <StrRes Name="sEmptyCell" Text="Empty Cell"/>
-  <StrRes Name="sUseXAxisTotal" Text="Use Column Total"/>
-  <StrRes Name="sUseYAxisTotal" Text="Use Row Total"/>
-  <StrRes Name="sClearAll" Text="Clear all"/>
-  <StrRes Name="sInverse" Text="Inverse"/>
-  <StrRes Name="sInfoFormCaption" Text="Cube information"/>
-  <StrRes Name="sInfoFormSliceGeometry" Text="Slice geometry"/>
-  <StrRes Name="sInfoFormSourceRowCount" Text="Source row count"/>
-  <StrRes Name="sInfoFormRowDimCount" Text="Count of row dimensions"/>
-  <StrRes Name="sInfoFormColDimCount" Text="Count of column dimesions"/>
-  <StrRes Name="sInfoFormFactsCount" Text="Count of measures"/>
-  <StrRes Name="sInfoFormFilterCount" Text="Count of filter fields"/>
-  <StrRes Name="sInfoFormColCount" Text="Column count"/>
-  <StrRes Name="sInfoFormRowCount" Text="Row count"/>
-  <StrRes Name="sInfoFormTimeChar" Text="Time characteristics (sec.)"/>
-  <StrRes Name="sInfoFormFullTime" Text="Full loading time"/>
-  <StrRes Name="sInfoFormDBOpenTime" Text="Opening data sources"/>
-  <StrRes Name="sInfoFormOpenTime" Text="Preparing to loading"/>
-  <StrRes Name="sInfoFormDBMoveTime" Text="Data fetch"/>
-  <StrRes Name="sInfoFormDBGetDataTime" Text="Getting values"/>
-  <StrRes Name="sInfoFormConvertTime" Text="Converting values"/>
-  <StrRes Name="sInfoFormDBCloseTime" Text="Closing data sources"/>
-  <StrRes Name="sInfoFormSortTime" Text="Sorting data"/>
-  <StrRes Name="sInfoFormDataBuildTime" Text="Calculation measures"/>
-  <StrRes Name="sInfoFormTimeSources" Text="Processing sources"/>
-  <StrRes Name="sInfoFormTimeAxisX" Text="Building X axis"/>
-  <StrRes Name="sInfoFormTimeAxisY" Text="Building Y axis"/>
-  <StrRes Name="sInfoFormTimeFacts" Text="Building measures"/>
-  <StrRes Name="sInfoFormTimeLinks" Text="Filling links"/>
-  <StrRes Name="sInfoFormTimeUniques" Text="Filling unique values"/>
-  <StrRes Name="sSave" Text="Save"/>
-  <StrRes Name="sLoad" Text="Load"/>
-  <StrRes Name="sCubeLoadAdditional" Text="Load additional cube"/>
-  <StrRes Name="sInformation" Text="Information"/>
-  <StrRes Name="sTranspose" Text="Transpose"/>
-  <StrRes Name="sRowRank" Text="Rank by row"/>
-  <StrRes Name="sColRank" Text="Rank by column"/>
-  <StrRes Name="sSelect" Text="Select"/>
-  <StrRes Name="sDeleteMeasure" Text="Delete measure"/>
-  <StrRes Name="sProperties" Text="Properties..."/>
-  <StrRes Name="sFuncDetCaption" Text="Calculation (detail)"/>
-  <StrRes Name="sChartMeasureFieldIndex" Text="Measure index:"/>
-  <StrRes Name="sMeasureEditor" Text="Measure Editor"/>
-  <StrRes Name="sGeneral" Text="General"/>
-  <StrRes Name="sFieldBased" Text="Field Based"/>
-  <StrRes Name="sBaseField" Text="Base Field"/>
-  <StrRes Name="sCalculated" Text="Calculated"/>
-  <StrRes Name="sFunction" Text="Function"/>
-  <StrRes Name="sOrder" Text="Order"/>
-  <StrRes Name="sCalcAllCells" Text="Calc all cells"/>
-  <StrRes Name="sTotals" Text="Totals"/>
-  <StrRes Name="sFiltering" Text="Filtering"/>
-  <StrRes Name="sStyle" Text="Style"/>
-  <StrRes Name="sFillStyle" Text="Fill Style"/>
-  <StrRes Name="sFillColor" Text="Fill Color %d"/>
-  <StrRes Name="sTextStyle" Text="Text Style"/>
-  <StrRes Name="sRange" Text="Range"/>
-  <StrRes Name="sExample" Text="Example"/>
-  <StrRes Name="sAdd" Text="Add"/>
-  <StrRes Name="sDelete" Text="Delete"/>
-  <StrRes Name="sMoveUp" Text="Move Up"/>
-  <StrRes Name="sMoveDown" Text="Move Down"/>
-  <StrRes Name="sExampleString" Text="Example string"/>
-  <StrRes Name="sBold" Text="Bold"/>
-  <StrRes Name="sItalic" Text="Italic"/>
-  <StrRes Name="sUnderline" Text="Underline"/>
-  <StrRes Name="sStrikeOut" Text="Strike Out"/>
-  <StrRes Name="sSolidColor" Text="Solid color"/>
-  <StrRes Name="sHorzGradient" Text="Horizontal gradient"/>
-  <StrRes Name="sVertGradient" Text="Vertical gradient"/>
-  <StrRes Name="sHorzCenterGradient" Text="Horz-Center gradient"/>
-  <StrRes Name="sVertCenterGradient" Text="Vert-Center gradient"/>
-  <StrRes Name="sDiag1Gradient" Text="Diagonal gradient 1"/>
-  <StrRes Name="sDiag2Gradient" Text="Diagonal gradient 2"/>
-  <StrRes Name="sDiag1CenterGradient" Text="Diag-Center gradient 1"/>
-  <StrRes Name="sDiag2CenterGradient" Text="Diag-Center gradient 2"/>
-  <StrRes Name="sCorner1Gradient" Text="Corner gradient 1"/>
-  <StrRes Name="sCorner2Gradient" Text="Corner gradient 2"/>
-  <StrRes Name="sCorner3Gradient" Text="Corner gradient 3"/>
-  <StrRes Name="sCorner4Gradient" Text="Corner gradient 4"/>
-  <StrRes Name="sCenterGradient" Text="Center gradient"/>
-  <StrRes Name="sConfirmDelete" Text="Confirm deletion"/>
-  <StrRes Name="sDimensionEditor" Text="Dimension Editor"/>
-  <StrRes Name="sUseTotalPositionFromMeasure" Text="Use total position from measure"/>
-  <StrRes Name="sSortDirection" Text="Sort direction"/>
-  <StrRes Name="sExpand" Text="Expand"/>
-  <StrRes Name="sCollapse" Text="Collapse"/>
-  <StrRes Name="sExpandGroup" Text="Expand group"/>
-  <StrRes Name="sCollapseGroup" Text="Collapse group"/>
-  <StrRes Name="sExpandAll" Text="Expand all"/>
-  <StrRes Name="sCollapseAll" Text="Collapse all"/>
-  <StrRes Name="sMoveToGroup" Text="Move to group"/>
-  <StrRes Name="sMoveFromGroup" Text="Move from group"/>
-  <StrRes Name="sDeleteGroup" Text="Delete group"/>
-  <StrRes Name="sRenameGroup" Text="Rename group..."/>
-  <StrRes Name="sFilterOutThisItem" Text="Filter out this item"/>
-  <StrRes Name="sFilterOutAllOtherItems" Text="Filter out all other items"/>
-  <StrRes Name="sHideNode" Text="Hide node"/>
-  <StrRes Name="sShowHiddenNodes" Text="Show hidden nodes"/>
-  <StrRes Name="sShowTopN" Text="Show Top N..."/>
-  <StrRes Name="sClearTopN" Text="Clear Top N"/>
-  <StrRes Name="sActiveTopN" Text="Active Top N filters: %d"/>
-  <StrRes Name="sAxisType" Text="Axis type"/>
-  <StrRes Name="sBefore" Text="Before"/>
-  <StrRes Name="sAfter" Text="After"/>
-  <StrRes Name="sHide" Text="Hide"/>
-  <StrRes Name="sFromMeasure" Text="From measure"/>
-  <StrRes Name="sStandard" Text="Standard"/>
-  <StrRes Name="sTreeLike" Text="Tree like"/>
-  <StrRes Name="sCreateNew" Text="Create new"/>
-  <StrRes Name="sNewGroup" Text="New group"/>
-  <StrRes Name="sCreateANewGroup" Text="Create a new group"/>
-  <StrRes Name="sEnterANewGroupName" Text="Enter a new group name:"/>
-  <StrRes Name="sSort" Text="Sort"/>
-  <StrRes Name="sRename" Text="Rename..."/>
-  <StrRes Name="sMoveToPage" Text="Move to page"/>
-  <StrRes Name="sClearFilter" Text="Clear filter"/>
-  <StrRes Name="sSplits" Text="Splits"/>
-  <StrRes Name="sCreateNewGroup" Text="Create new group..."/>
-  <StrRes Name="sCreateOtherGroup" Text="Create &#60;other&#62; group..."/>
-  <StrRes Name="sAddNewMeasure" Text="Add new measure..."/>
-  <StrRes Name="sOther" Text="Other"/>
-  <StrRes Name="sEnterOtherGroupCaption" Text="Enter &#38;#60;other&#38;#62; group caption:"/>
-  <StrRes Name="sAscending" Text="Ascending"/>
-  <StrRes Name="sDescending" Text="Descending"/>
-  <StrRes Name="sDay" Text="Day"/>
-  <StrRes Name="sMonth" Text="Month"/>
-  <StrRes Name="sQuarter" Text="Quarter"/>
-  <StrRes Name="sYear" Text="Year"/>
-  <StrRes Name="sDayOfWeek" Text="Day of week"/>
-  <StrRes Name="sWeekNumber" Text="Week number"/>
-  <StrRes Name="sDayOfYear" Text="Day of year"/>
-  <StrRes Name="sHour" Text="Hour"/>
-  <StrRes Name="sMinute" Text="Minute"/>
-  <StrRes Name="sSecond" Text="Second"/>
-  <StrRes Name="sMillisecond" Text="Millisecond"/>
-  <StrRes Name="sTimeSplits" Text="Splits of time"/>
-  <StrRes Name="sDateSplits" Text="Splits of date"/>
-  <StrRes Name="sDateAttribute" Text="Date attribute"/>
-  <StrRes Name="sTimeAttribute" Text="Time attribute"/>
-  <StrRes Name="sCalcForSelection" Text="Calc for selection"/>
-  <StrRes Name="sScale" Text="Scale"/>
-  <StrRes Name="sScaleSlider" Text="Scale slider"/>
-  <StrRes Name="sDimension" Text="Dimension"/>
-  <StrRes Name="sShow" Text="Show"/>
-  <StrRes Name="sCreateOthers" Text="Create &#60;others&#62;"/>
-  <StrRes Name="sTopMax" Text="most"/>
-  <StrRes Name="sTopMin" Text="least"/>
-  <StrRes Name="sStylesEditor" Text="Styles Editor"/>
-  <StrRes Name="sCaptionArea" Text="Caption area"/>
-  <StrRes Name="sHeaderArea" Text="Header area"/>
-  <StrRes Name="sHeaderCells" Text="Header cells"/>
-  <StrRes Name="sHeaderCellsSelected" Text="Header cells (selected)"/>
-  <StrRes Name="sDataArea" Text="Data area"/>
-  <StrRes Name="sDataCells" Text="Data cells"/>
-  <StrRes Name="sDataCellsSelected" Text="Data cells (selected)"/>
-  <StrRes Name="sActiveDimension" Text="Active dimension"/>
-  <StrRes Name="sInactiveDimension" Text="Inactive dimension"/>
-  <StrRes Name="sDataCellsTotals" Text="Data cells (totals)"/>
-  <StrRes Name="sFieldsItem" Text="Fields item"/>
-  <StrRes Name="sStatusArea" Text="Status area"/>
-  <StrRes Name="sHighlightRuleEditor" Text="Highlight rule editor"/>
-  <StrRes Name="sRangeHighlightCaption" Text="Highlight cells matched condition"/>
-  <StrRes Name="sRule" Text="Rule (applies in order)"/>
-  <StrRes Name="sCellValueBetween" Text="Cell value between %f and %f"/>
-  <StrRes Name="sCellValueBeyond" Text="Cell value beyond %f and %f"/>
-  <StrRes Name="sCellValueEqual" Text="Cell value = %f"/>
-  <StrRes Name="sCellValueNotEqual" Text="Cell value &#60;&#62; %f"/>
-  <StrRes Name="sCellValueGreater" Text="Cell value &#62; %f"/>
-  <StrRes Name="sCellValueLess" Text="Cell value &#60; %f"/>
-  <StrRes Name="sCellValueGreaterOrEqual" Text="Cell value &#62;= %f"/>
-  <StrRes Name="sCellValueLessOrEqual" Text="Cell value &#60;= %f"/>
-  <StrRes Name="sCellTextContains" Text="Cell text contains '%s'"/>
-  <StrRes Name="sCellTextNotContains" Text="Cell text not contains '%s'"/>
-  <StrRes Name="sCellTextStartsWith" Text="Cell text starts with '%s'"/>
-  <StrRes Name="sCellTextEndsWith" Text="Cell text ends with '%s'"/>
-  <StrRes Name="sCellValueIsNull" Text="Cell value is null"/>
-  <StrRes Name="sCellValueIsNotNull" Text="Cell value is not null"/>
-  <StrRes Name="sCellValue" Text="Value"/>
-  <StrRes Name="sCellText" Text="Text"/>
-  <StrRes Name="sCellDate" Text="Date"/>
-  <StrRes Name="sCellNull" Text="Empty"/>
-  <StrRes Name="sCellNotNull" Text="Not empty"/>
-  <StrRes Name="sBetween" Text="between"/>
-  <StrRes Name="sBeyond" Text="beyond"/>
-  <StrRes Name="sEqual" Text="equal"/>
-  <StrRes Name="sNotEqual" Text="not equal"/>
-  <StrRes Name="sGreater" Text="greater"/>
-  <StrRes Name="sLess" Text="less"/>
-  <StrRes Name="sGreaterOrEqual" Text="greater or equal"/>
-  <StrRes Name="sLessOrEqual" Text="less or equal"/>
-  <StrRes Name="sContains" Text="contains"/>
-  <StrRes Name="sNotContains" Text="not contains"/>
-  <StrRes Name="sStartsWith" Text="starts with"/>
-  <StrRes Name="sEndsWith" Text="ends with"/>
-  <StrRes Name="sAnd" Text="and"/>
-  <StrRes Name="sOr" Text="or"/>
-  <StrRes Name="sEditStyle" Text="Style..."/>
-  <StrRes Name="sStyleEditor" Text="Style editor"/>
-  <StrRes Name="sApplyTo" Text="Apply to"/>
-  <StrRes Name="sToCells" Text="Cells"/>
-  <StrRes Name="sToTotals" Text="Totals"/>
-  <StrRes Name="sToGrandTotal" Text="Grand Total"/>
-  <StrRes Name="sContinuousHighlightCaption" Text="Highlight all cells dependent on value"/>
-  <StrRes Name="sHighlightKind" Text="Highlight type"/>
-  <StrRes Name="sTwoColorScale" Text="Two color scale"/>
-  <StrRes Name="sThreeColorScale" Text="Three color scale"/>
-  <StrRes Name="sBarChart" Text="Bar"/>
-  <StrRes Name="sIconSet" Text="Icon set"/>
-  <StrRes Name="sMinValue" Text="Minimal value"/>
-  <StrRes Name="sMinValueByRow" Text="Minimal value by row"/>
-  <StrRes Name="sMinValueByCol" Text="Minimal value by col"/>
-  <StrRes Name="sMidValue" Text="Average value"/>
-  <StrRes Name="sMaxValue" Text="Maximal value"/>
-  <StrRes Name="sMaxValueByRow" Text="Maximal value by row"/>
-  <StrRes Name="sMaxValueByCol" Text="Maximal value by col"/>
-  <StrRes Name="sType" Text="Type"/>
-  <StrRes Name="sValue" Text="Value"/>
-  <StrRes Name="sColor" Text="Color"/>
-  <StrRes Name="sNumber" Text="Number"/>
-  <StrRes Name="sPercentByRow" Text="Percent by row"/>
-  <StrRes Name="sPercentByCol" Text="Percent by col"/>
-  <StrRes Name="sPercentileByRow" Text="Percentile by row"/>
-  <StrRes Name="sPercentileByCol" Text="Percentile by col"/>
-  <StrRes Name="sBarColor" Text="Bar color"/>
-  <StrRes Name="sTheShortestBar" Text="The shortest bar"/>
-  <StrRes Name="sTheLongestBar" Text="The longest bar"/>
-  <StrRes Name="sShowCellValue" Text="Show cell value"/>
-  <StrRes Name="sGradientDraw" Text="Draw gradient"/>
-  <StrRes Name="sFrameColor" Text="Frame color"/>
-  <StrRes Name="sIfValue" Text="if value"/>
-  <StrRes Name="sIfValue1" Text="if %s %g"/>
-  <StrRes Name="sReverseOrder" Text="Reverse order"/>
-  <StrRes Name="sIcon" Text="Icon"/>
-  <StrRes Name="sNoIcon" Text="No icon"/>
-  <StrRes Name="sCustom" Text="Custom"/>
-  <StrRes Name="sString" Text="String"/>
-  <StrRes Name="sNumeric" Text="Numeric"/>
-  <StrRes Name="sDateTime" Text="DateTime"/>
-  <StrRes Name="sSkipNullPoints" Text="Skip null points"/>
-  <StrRes Name="sBaseAxisDataType" Text="Data type for base axis"/>
-  <StrRes Name="sRangeEditor" Text="Range editor"/>
-  <StrRes Name="sCustomFilter" Text="Custom filter..."/>
-  <StrRes Name="sShowAvailable" Text="Show available"/>
-  <StrRes Name="dtMeasures" Text="Measures"/>
-  <StrRes Name="dtDimensions" Text="Dimensions"/>
-  <StrRes Name="dtSliceFields" Text="SliceFields"/>
+  <StrRes Name="obfrcCube" Text="Objeto de cubo FastCube 2"/>
+  <StrRes Name="obfrcChartView" Text="Objeto de gráfico FastCube 2"/>
+  <StrRes Name="obfrcCrossView" Text="Objeto de tabela de referência cruzada FastCube 2"/>
+  <StrRes Name="sMeasureEditor" Text="Editor de medidas"/>
+  <StrRes Name="sGeneral" Text="Geral"/>
+  <StrRes Name="sCaption" Text="Legenda"/>
+  <StrRes Name="sAggregate" Text="Agregado"/>
+  <StrRes Name="sFieldBased" Text="Baseado em campo"/>
+  <StrRes Name="sBaseField" Text="Campo de base"/>
+  <StrRes Name="sCalculated" Text="Calculado"/>
+  <StrRes Name="sFunction" Text="Função"/>
+  <StrRes Name="sOrder" Text="Ordem"/>
+  <StrRes Name="sCalcAllCells" Text="Calcular todas as células"/>
+  <StrRes Name="sTotals" Text="Totais"/>
+  <StrRes Name="sFiltering" Text="Filtragem"/>
+  <StrRes Name="sStyle" Text="Estilo"/>
+  <StrRes Name="sFillStyle" Text="Estilo de preenchimento"/>
+  <StrRes Name="sFillColor" Text="Cor de preenchimento %d"/>
+  <StrRes Name="sTextStyle" Text="Estilo do texto"/>
+  <StrRes Name="sTextColor" Text="Cor do texto"/>
+  <StrRes Name="sRange" Text="Intervalo"/>
+  <StrRes Name="sExample" Text="Exemplo"/>
+  <StrRes Name="sAdd" Text="Adicionar"/>
+  <StrRes Name="sDelete" Text="Excluir"/>
+  <StrRes Name="sMoveUp" Text="Mover para cima"/>
+  <StrRes Name="sMoveDown" Text="Mover para baixo"/>
+  <StrRes Name="sExampleString" Text="Cadeia de exemplo"/>
+  <StrRes Name="sBold" Text="Negrito"/>
+  <StrRes Name="sItalic" Text="Itálico"/>
+  <StrRes Name="sUnderline" Text="Sublinhar"/>
+  <StrRes Name="sStrikeOut" Text="Tachar"/>
+  <StrRes Name="sSolidColor" Text="Cor sólida"/>
+  <StrRes Name="sHorzGradient" Text="Gradiente horizontal"/>
+  <StrRes Name="sVertGradient" Text="Gradiente vertical"/>
+  <StrRes Name="sHorzCenterGradient" Text="Gradiente horizontal-central"/>
+  <StrRes Name="sVertCenterGradient" Text="Gradiente vertical-central"/>
+  <StrRes Name="sDiag1Gradient" Text="Gradiente diagonal 1"/>
+  <StrRes Name="sDiag2Gradient" Text="Gradiente diagonal 2"/>
+  <StrRes Name="sDiag1CenterGradient" Text="Gradiente diagonal-central 1"/>
+  <StrRes Name="sDiag2CenterGradient" Text="Gradiente diagonal-central 2"/>
+  <StrRes Name="sCorner1Gradient" Text="Gradiente do canto 1"/>
+  <StrRes Name="sCorner2Gradient" Text="Gradiente do canto 2"/>
+  <StrRes Name="sCorner3Gradient" Text="Gradiente do canto 3"/>
+  <StrRes Name="sCorner4Gradient" Text="Gradiente do canto 4"/>
+  <StrRes Name="sCenterGradient" Text="Gradiente central"/>
+  <StrRes Name="sConfirmDelete" Text="Confirmar exclusão"/>
+  <StrRes Name="sDimensionEditor" Text="Editor de dimensões"/>
+  <StrRes Name="sUseTotalPositionFromMeasure" Text="Usar posição total da medida"/>
+  <StrRes Name="sSortDirection" Text="Direção de classificação"/>
+  <StrRes Name="sExpand" Text="Expandir"/>
+  <StrRes Name="sCollapse" Text="Recolher"/>
+  <StrRes Name="sExpandGroup" Text="Expandir grupo"/>
+  <StrRes Name="sCollapseGroup" Text="Recolher grupo"/>
+  <StrRes Name="sExpandAll" Text="Expandir tudo"/>
+  <StrRes Name="sCollapseAll" Text="Recolher tudo"/>
+  <StrRes Name="sMoveToGroup" Text="Mover para grupo"/>
+  <StrRes Name="sMoveFromGroup" Text="Mover do grupo"/>
+  <StrRes Name="sDeleteGroup" Text="Excluir grupo"/>
+  <StrRes Name="sRenameGroup" Text="Renomear grupo..."/>
+  <StrRes Name="sFilterOutThisItem" Text="Filtrar este item"/>
+  <StrRes Name="sFilterOutAllOtherItems" Text="Filtrar todos os outros itens"/>
+  <StrRes Name="sHideNode" Text="Ocultar nó"/>
+  <StrRes Name="sShowHiddenNodes" Text="Exibir nós ocultos"/>
+  <StrRes Name="sShowTopN" Text="Exibir Top N..."/>
+  <StrRes Name="sClearTopN" Text="Limpar Top N"/>
+  <StrRes Name="sActiveTopN" Text="Filtros Top N ativos: %d"/>
+  <StrRes Name="sAxisType" Text="Tipo de eixo"/>
+  <StrRes Name="sBefore" Text="Antes"/>
+  <StrRes Name="sAfter" Text="Depois"/>
+  <StrRes Name="sHide" Text="Ocultar"/>
+  <StrRes Name="sFromMeasure" Text="Da medida"/>
+  <StrRes Name="sStandard" Text="Padrão"/>
+  <StrRes Name="sTreeLike" Text="Tipo árvore"/>
+  <StrRes Name="sCreateNew" Text="Criar novo"/>
+  <StrRes Name="sNewGroup" Text="Grupo novo"/>
+  <StrRes Name="sCreateANewGroup" Text="Criar grupo novo"/>
+  <StrRes Name="sEnterANewGroupName" Text="Insira o nome do grupo novo:"/>
+  <StrRes Name="sSort" Text="Classificar"/>
+  <StrRes Name="sRename" Text="Renomear..."/>
+  <StrRes Name="sMoveToPage" Text="Mover para página"/>
+  <StrRes Name="sClearFilter" Text="Limpar filtro"/>
+  <StrRes Name="sSplits" Text="Divisões"/>
+  <StrRes Name="sCreateNewGroup" Text="Criar grupo novo..."/>
+  <StrRes Name="sCreateOtherGroup" Text="Criar &#60;outro&#62; grupo..."/>
+  <StrRes Name="sAddNewMeasure" Text="Adicionar medida nova..."/>
+  <StrRes Name="sOther" Text="Outro"/>
+  <StrRes Name="sEnterOtherGroupCaption" Text="Inserir legenda do &#38;#60;outro&#38;#62; grupo:"/>
+  <StrRes Name="sAscending" Text="Ascendente"/>
+  <StrRes Name="sDescending" Text="Descendente"/>
+  <StrRes Name="sDay" Text="Dia"/>
+  <StrRes Name="sMonth" Text="Mês"/>
+  <StrRes Name="sQuarter" Text="Trimestre"/>
+  <StrRes Name="sYear" Text="Ano"/>
+  <StrRes Name="sDayOfWeek" Text="Dia da semana"/>
+  <StrRes Name="sWeekNumber" Text="Número da semana"/>
+  <StrRes Name="sDayOfYear" Text="Dia do ano"/>
+  <StrRes Name="sHour" Text="Hora"/>
+  <StrRes Name="sMinute" Text="Minuto"/>
+  <StrRes Name="sSecond" Text="Segundo"/>
+  <StrRes Name="sMillisecond" Text="Milissegundo"/>
+  <StrRes Name="sTimeSplits" Text="Divisões de hora"/>
+  <StrRes Name="sDateSplits" Text="Divisões de data"/>
+  <StrRes Name="sDateAttribute" Text="Atributo da data"/>
+  <StrRes Name="sTimeAttribute" Text="Atributo da hora"/>
+  <StrRes Name="sCalcForSelection" Text="Cálculo para a seleção"/>
+  <StrRes Name="sScale" Text="Escala"/>
+  <StrRes Name="sScaleSlider" Text="Controle deslizante de escala"/>
+  <StrRes Name="sDimension" Text="Dimensão"/>
+  <StrRes Name="sShow" Text="Exibir"/>
+  <StrRes Name="sCreateOthers" Text="Criar &#60;outros&#62;"/>
+  <StrRes Name="sTopMax" Text="maior"/>
+  <StrRes Name="sTopMin" Text="menor"/>
+  <StrRes Name="sStylesEditor" Text="Editor de estilos"/>
+  <StrRes Name="sCaptionArea" Text="Área da legenda"/>
+  <StrRes Name="sHeaderArea" Text="Área do cabeçalho"/>
+  <StrRes Name="sHeaderCells" Text="Células do cabeçalho"/>
+  <StrRes Name="sHeaderCellsSelected" Text="Células do cabeçalho (selecionadas)"/>
+  <StrRes Name="sDataArea" Text="Área de dados"/>
+  <StrRes Name="sDataCells" Text="Células de dados"/>
+  <StrRes Name="sDataCellsSelected" Text="Células de dados (selecionadas)"/>
+  <StrRes Name="sActiveDimension" Text="Dimensão ativa"/>
+  <StrRes Name="sInactiveDimension" Text="Dimensão inativa"/>
+  <StrRes Name="sDataCellsTotals" Text="Células de dados (totais)"/>
+  <StrRes Name="sFieldsItem" Text="Item de campos"/>
+  <StrRes Name="sStatusArea" Text="Área de status"/>
+  <StrRes Name="sHighlightRuleEditor" Text="Editor de regra de realce"/>
+  <StrRes Name="sRangeHighlightCaption" Text="Realçar células que cumpram a condição"/>
+  <StrRes Name="sRule" Text="Regra (é aplicada em ordem)"/>
+  <StrRes Name="sCellValueBetween" Text="Valor da célula entre %f e %f"/>
+  <StrRes Name="sCellValueBeyond" Text="Valor da célula além de %f e %f"/>
+  <StrRes Name="sCellValueEqual" Text="Valor da célula = %f"/>
+  <StrRes Name="sCellValueNotEqual" Text="Valor da célula &#60;&#62; %f"/>
+  <StrRes Name="sCellValueGreater" Text="Valor da célula &#62; %f"/>
+  <StrRes Name="sCellValueLess" Text="Valor da célula &#60; %f"/>
+  <StrRes Name="sCellValueGreaterOrEqual" Text="Valor da célula &#62;= %f"/>
+  <StrRes Name="sCellValueLessOrEqual" Text="Valor da célula &#60;= %f"/>
+  <StrRes Name="sCellTextContains" Text="O texto da célula contém '%s'"/>
+  <StrRes Name="sCellTextNotContains" Text="O texto da célula não contém '%s'"/>
+  <StrRes Name="sCellTextStartsWith" Text="A célula começa com '%s'"/>
+  <StrRes Name="sCellTextEndsWith" Text="A célula termina com '%s'"/>
+  <StrRes Name="sCellValueIsNull" Text="O valor da célula é nulo"/>
+  <StrRes Name="sCellValueIsNotNull" Text="O valor da célula não é nulo"/>
+  <StrRes Name="sCellValue" Text="Valor"/>
+  <StrRes Name="sCellText" Text="Texto"/>
+  <StrRes Name="sCellDate" Text="Data"/>
+  <StrRes Name="sCellNull" Text="Vazia"/>
+  <StrRes Name="sCellNotNull" Text="Não vazia"/>
+  <StrRes Name="sBetween" Text="entre"/>
+  <StrRes Name="sBeyond" Text="além"/>
+  <StrRes Name="sEqual" Text="igual"/>
+  <StrRes Name="sNotEqual" Text="não igual"/>
+  <StrRes Name="sGreater" Text="maior"/>
+  <StrRes Name="sLess" Text="menor"/>
+  <StrRes Name="sGreaterOrEqual" Text="maior ou igual"/>
+  <StrRes Name="sLessOrEqual" Text="menor ou igual"/>
+  <StrRes Name="sContains" Text="contém"/>
+  <StrRes Name="sNotContains" Text="não contém"/>
+  <StrRes Name="sStartsWith" Text="começa com"/>
+  <StrRes Name="sEndsWith" Text="termina com"/>
+  <StrRes Name="sAnd" Text="e"/>
+  <StrRes Name="sOr" Text="ou"/>
+  <StrRes Name="sEditStyle" Text="Estilo..."/>
+  <StrRes Name="sStyleEditor" Text="Editor de estilos"/>
+  <StrRes Name="sApplyTo" Text="Aplicar a"/>
+  <StrRes Name="sToCells" Text="Células"/>
+  <StrRes Name="sToTotals" Text="Totais"/>
+  <StrRes Name="sToGrandTotal" Text="Total geral"/>
+  <StrRes Name="sContinuousHighlightCaption" Text="Realçar todas as células dependentes do valor"/>
+  <StrRes Name="sHighlightKind" Text="Tipo de realce"/>
+  <StrRes Name="sTwoColorScale" Text="Escala de duas cores"/>
+  <StrRes Name="sThreeColorScale" Text="Escala de três cores"/>
+  <StrRes Name="sBarChart" Text="Barra"/>
+  <StrRes Name="sIconSet" Text="Conjunto de ícones"/>
+  <StrRes Name="sMinValue" Text="Valor mínimo"/>
+  <StrRes Name="sMinValueByRow" Text="Valor mínimo por fileira"/>
+  <StrRes Name="sMinValueByCol" Text="Valor mínimo por coluna"/>
+  <StrRes Name="sMidValue" Text="Valor médio"/>
+  <StrRes Name="sMaxValue" Text="Valor máximo"/>
+  <StrRes Name="sMaxValueByRow" Text="Valor máximo por fileira"/>
+  <StrRes Name="sMaxValueByCol" Text="Valor máximo por coluna"/>
+  <StrRes Name="sType" Text="Tipo"/>
+  <StrRes Name="sValue" Text="Valor"/>
+  <StrRes Name="sColor" Text="Cor"/>
+  <StrRes Name="sNumber" Text="Número"/>
+  <StrRes Name="sPercentByRow" Text="Porcento por fileira"/>
+  <StrRes Name="sPercentByCol" Text="Porcento por coluna"/>
+  <StrRes Name="sPercentileByRow" Text="Porcentagem por fileira"/>
+  <StrRes Name="sPercentileByCol" Text="Percentagem por coluna"/>
+  <StrRes Name="sBarColor" Text="Cor da barra"/>
+  <StrRes Name="sTheShortestBar" Text="A barra mais curta"/>
+  <StrRes Name="sTheLongestBar" Text="A barra mais longa"/>
+  <StrRes Name="sShowCellValue" Text="Exibir valor da célula"/>
+  <StrRes Name="sGradientDraw" Text="Desenhar gradiente"/>
+  <StrRes Name="sFrameColor" Text="Cor do quadro"/>
+  <StrRes Name="sIfValue" Text="se valor"/>
+  <StrRes Name="sIfValue1" Text="se %s %g"/>
+  <StrRes Name="sReverseOrder" Text="Inverter a ordem"/>
+  <StrRes Name="sIcon" Text="Icone"/>
+  <StrRes Name="sNoIcon" Text="Nenhum ícone"/>
+  <StrRes Name="sCustom" Text="Personalizado"/>
+  <StrRes Name="sString" Text="Cadeia"/>
+  <StrRes Name="sNumeric" Text="Numérico"/>
+  <StrRes Name="sDateTime" Text="Data e Hora"/>
+  <StrRes Name="sSkipNullPoints" Text="Ignorar pontos nulos"/>
+  <StrRes Name="sBaseAxisDataType" Text="Tipo de dados para eixo de base"/>
+  <StrRes Name="sRangeEditor" Text="Editor de intervalos"/>
+  <StrRes Name="sCustomFilter" Text="Filtro personalizado..."/>
+  <StrRes Name="sShowAvailable" Text="Exibir disponível"/>
+  <StrRes Name="dtMeasures" Text="Medidas"/>
+  <StrRes Name="dtDimensions" Text="Dimensões"/>
+  <StrRes Name="dtSliceFields" Text="Campos de fatia"/>
 </Resources>

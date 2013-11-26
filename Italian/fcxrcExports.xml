@@ -6,15 +6,15 @@
   <StrRes Name="8003" Text="Unisci celle"/>
   <StrRes Name="8004" Text="Fast export"/>
   <StrRes Name="8005" Text="Anteprima"/>
-  <StrRes Name="8006" Text="As text"/>
-  <StrRes Name="8007" Text="Background"/>
+  <StrRes Name="8006" Text="Come testo"/>
+  <StrRes Name="8007" Text="In background"/>
   <StrRes Name="8008" Text="Apri il file Excel dopo l'esportazione"/>
   <StrRes Name="8009" Text="File Excel(*.xls)|*.xls"/>
   <StrRes Name="8010" Text=".xls"/>
   <StrRes Name="8100" Text="Esporta nel formato Excel"/>
   <StrRes Name="8101" Text="Stili"/>
   <StrRes Name="8102" Text="Anteprima"/>
-  <StrRes Name="8103" Text="Background"/>
+  <StrRes Name="8103" Text="in background"/>
   <StrRes Name="8104" Text="Apri il file Excel dopo l'esportazione"/>
   <StrRes Name="8105" Text="File XML Excel (*.xls)|*.xls"/>
   <StrRes Name="8106" Text=".xls"/>
@@ -27,7 +27,7 @@
   <StrRes Name="8206" Text="Pagina di navigazione"/>
   <StrRes Name="8207" Text="Multipagina"/>
   <StrRes Name="8208" Text="Browser Mozilla"/>
-  <StrRes Name="8209" Text="Background"/>
+  <StrRes Name="8209" Text="In background"/>
   <StrRes Name="8210" Text="File HTML (*.html)|*.html"/>
   <StrRes Name="8211" Text=".html"/>
   <StrRes Name="8300" Text="Esporta in formato testo (file di testo a spaziatura fissa)"/>
@@ -108,26 +108,26 @@
   <StrRes Name="TIFFexportFilter" Text="Immagine Tiff (*.tif)|*.tif"/>
   <StrRes Name="BMPexportFilter" Text="Immagine BMP (*.bmp)|*.bmp"/>
   <StrRes Name="JPEGexportFilter" Text="Immagine Jpeg (*.jpg)|*.jpg"/>
-  <StrRes Name="HTMLNavFirst" Text="First"/>
-  <StrRes Name="HTMLNavPrev" Text="Prev"/>
-  <StrRes Name="HTMLNavNext" Text="Next"/>
-  <StrRes Name="HTMLNavLast" Text="Last"/>
-  <StrRes Name="HTMLNavRefresh" Text="Refresh"/>
-  <StrRes Name="HTMLNavPrint" Text="Print"/>
-  <StrRes Name="HTMLNavTotal" Text="Total pages"/>
-  <StrRes Name="8800" Text="Export to Text"/>
-  <StrRes Name="8801" Text="Text file (*.txt)|*.txt"/>
+  <StrRes Name="HTMLNavFirst" Text="Prima"/>
+  <StrRes Name="HTMLNavPrev" Text="Precedente"/>
+  <StrRes Name="HTMLNavNext" Text="Prossima"/>
+  <StrRes Name="HTMLNavLast" Text="Ultima"/>
+  <StrRes Name="HTMLNavRefresh" Text="Aggiorna"/>
+  <StrRes Name="HTMLNavPrint" Text="Stampa"/>
+  <StrRes Name="HTMLNavTotal" Text="Pagine totali"/>
+  <StrRes Name="8800" Text="Esporta in testo"/>
+  <StrRes Name="8801" Text="File di testo (*.txt)|*.txt"/>
   <StrRes Name="8802" Text=".txt"/>
-  <StrRes Name="SimpleTextExport" Text="Text file"/>
-  <StrRes Name="8850" Text="Export to CSV"/>
-  <StrRes Name="8851" Text="CSV file (*.csv)|*.csv"/>
+  <StrRes Name="SimpleTextExport" Text="File di testo"/>
+  <StrRes Name="8850" Text="Esporta in CSV"/>
+  <StrRes Name="8851" Text="File CSV (*.csv)|*.csv"/>
   <StrRes Name="8852" Text=".csv"/>
-  <StrRes Name="8853" Text="Separator"/>
-  <StrRes Name="CSVExport" Text="CSV file"/>
+  <StrRes Name="8853" Text="Separatore"/>
+  <StrRes Name="CSVExport" Text="File CSV"/>
   <StrRes Name="8900" Text="Invio tramite E-mail"/>
   <StrRes Name="8901" Text="E-mail"/>
   <StrRes Name="8902" Text="Account"/>
-  <StrRes Name="8903" Text="Connection"/>
+  <StrRes Name="8903" Text="Connessione"/>
   <StrRes Name="8904" Text="Indirizzo"/>
   <StrRes Name="8905" Text="Allegato"/>
   <StrRes Name="8906" Text="Formato"/>
@@ -141,7 +141,7 @@
   <StrRes Name="8914" Text="Organizzazione"/>
   <StrRes Name="8915" Text="Password"/>
   <StrRes Name="8916" Text="Porta"/>
-  <StrRes Name="8917" Text="Remember properties"/>
+  <StrRes Name="8917" Text="Memorizza credenziali"/>
   <StrRes Name="8918" Text="Non sono stati impostati uno o più campi obbligatori"/>
   <StrRes Name="8919" Text="Visualizza i parametri di esportazione file"/>
   <StrRes Name="8920" Text="Firma"/>
@@ -158,10 +158,10 @@
   <StrRes Name="8952" Text="Testo"/>
   <StrRes Name="8953" Text="Impostazione/piede"/>
   <StrRes Name="8954" Text="Niente"/>
-  <StrRes Name="ODSExportFilter" Text="Open Document Spreadsheet file (*.ods)|*.ods"/>
-  <StrRes Name="ODSExport" Text="Open Document Spreadsheet"/>
-  <StrRes Name="ODTExportFilter" Text="Open Document Text file (*.odt)|*.odt"/>
-  <StrRes Name="ODTExport" Text="Open Document Text"/>
+  <StrRes Name="ODSExportFilter" Text="Foglio di calcolo Open Document file (*.ods)|*.ods"/>
+  <StrRes Name="ODSExport" Text="Foglio di calcolo Open Document"/>
+  <StrRes Name="ODTExportFilter" Text="File di testo Open Document (*.odt)|*.odt"/>
+  <StrRes Name="ODTExport" Text="File di testo Open Document"/>
   <StrRes Name="8960" Text=".ods"/>
   <StrRes Name="8961" Text=".odt"/>
   <StrRes Name="8962" Text="Sicurezza"/>
@@ -172,7 +172,7 @@
   <StrRes Name="8967" Text="Permetti la modifica del documento"/>
   <StrRes Name="8968" Text="Permetti l'estrazione di testi e/o immagini"/>
   <StrRes Name="8969" Text="Permetti l'aggiunta e/o la modifica di annotazioni"/>
-  <StrRes Name="8970" Text="PDF Security"/>
+  <StrRes Name="8970" Text="Sicurezza del PDF"/>
   <StrRes Name="8971" Text=" Informazioni del documento "/>
   <StrRes Name="8972" Text="Informazioni"/>
   <StrRes Name="8973" Text="Titolo"/>
@@ -207,8 +207,8 @@
   <StrRes Name="9107" Text="Automaticamente"/>
   <StrRes Name="9108" Text="Manualmente"/>
   <StrRes Name="9109" Text="Carica da un file"/>
-  <StrRes Name="9110" Text="Text files (*.txt)|*.txt|Tutti i files|*.*"/>
-  <StrRes Name="9111" Text="DBF files (*.dbf)|*.dbf|Tutti i files|*.*"/> 
+  <StrRes Name="9110" Text="File di testo (*.txt)|*.txt|Tutti i files|*.*"/>
+  <StrRes Name="9111" Text="Files DBF  (*.dbf)|*.dbf|Tutti i files|*.*"/> 
   <StrRes Name="9151" Text="Excel 97/2000/XP file"/>
   <StrRes Name="9152" Text="Crea automaticamente il file"/>
   <StrRes Name="9153" Text="Opzioni"/>
@@ -217,9 +217,9 @@
   <StrRes Name="9156" Text="Tutto in una pagina"/>
   <StrRes Name="9157" Text="Ragruppamento dati"/>
   <StrRes Name="9158" Text="Come il report"/>
-  <StrRes Name="9159" Text="Fette. Ogni fetta ha (righe):"/>
-  <StrRes Name="9160" Text="Il numero delle righe di una fetta deve essere un valore positivo."/>
-  <StrRes Name="9161" Text="SingleSheet deve essere falso se si esporta per fette"/>
+  <StrRes Name="9159" Text="Slice. Ogni slice ha (righe):"/>
+  <StrRes Name="9160" Text="Il numero delle righe di una slice deve essere un valore positivo."/>
+  <StrRes Name="9161" Text="SingleSheet deve essere falso se si esporta per slice"/>
   <StrRes Name="9162" Text="Autore"/>
   <StrRes Name="9163" Text="Commenti"/>
   <StrRes Name="9164" Text="Parola chiave"/>
@@ -235,10 +235,10 @@
   <StrRes Name="9174" Text="Informazione"/>
   <StrRes Name="9175" Text="Protezione"/>
   <StrRes Name="9176" Text="Password"/>
-  <StrRes Name="9177" Text="Se fornisci un password non vuoto, il documento generato sarà protetto da quel password. Il password è sempre scritto in caratteri Unicode e non deve avere oltre 255 caratteri Unicode."/>
+  <StrRes Name="9177" Text="Se fornisci una password non vuoto, il documento generato sarà protetto da quella password. La password è sempre scritto in caratteri Unicode e non deve avere più di 255 caratteri Unicode."/>
   <StrRes Name="9178" Text="Conferma"/>
-  <StrRes Name="9179" Text="Conferma password non coincide con il password. Immette il password un'altra volta."/>
-  <StrRes Name="9180" Text="Cercando di settare il password di %d caratteri. Il massimo permesso della lungezza è %d caratteri."/>
+  <StrRes Name="9179" Text="Conferma password non coincide con la password. Immette la password un'altra volta."/>
+  <StrRes Name="9180" Text="Cercando di settare la password di %d caratteri. La lungezza massima ammessa è di%d caratteri."/>
   <StrRes Name="9181" Text="Impostazione formato pagina"/>
   <StrRes Name="9182" Text="Esporta in formato Excel 97/2000/XP"/>
   <StrRes Name="9183" Text="Elimina righe vuote"/>
@@ -253,11 +253,11 @@
   <StrRes Name="9201" Text="Microsoft PowerPoint 2007 XML"/>
   <StrRes Name="9203" Text="Microsoft Word 2007 XML"/>
   
-  <StrRes Name="9300" Text="HTML Layered"/>
-  <StrRes Name="9301" Text="HTML files (*.html)|*.html|Tutti i file|*.*"/>
-  <StrRes Name="9302" Text="HTML Layered Export"/>
-  <StrRes Name="9303" Text="HTML5 Layered"/>
-  <StrRes Name="9304" Text="HTML4 Layered"/>
+  <StrRes Name="9300" Text="Struttura HTML "/>
+  <StrRes Name="9301" Text="Files HTML (*.html)|*.html|Tutti i file|*.*"/>
+  <StrRes Name="9302" Text="Esportazione in struttura HTML "/>
+  <StrRes Name="9303" Text="Struttura HTML5"/>
+  <StrRes Name="9304" Text="Struttura HTML4"/>
   
   <StrRes Name="9400" Text="Riordina componenti"/>
   <StrRes Name="9401" Text="Rendering componenti"/>
@@ -273,10 +273,10 @@
   <StrRes Name="expMailAddr" Text="Inidirzzo o inidirizzi separati da virgole"/>  
 
   <StrRes Name="sExport" Text="Export"/>
-  <StrRes Name="sXMLExport" Text="XML Export"/>
+  <StrRes Name="sXMLExport" Text="EsportazioneXML"/>
   <StrRes Name="sXMLFilter" Text="XML file (*.xml)|*.xml"/>
   <StrRes Name="sXMLExt" Text=".xml"/>
-  <StrRes Name="sRepeatAxesValues" Text="Repeat axes values"/>
-  <StrRes Name="sHTMLFormat" Text="HTML format"/>
-  <StrRes Name="sUseDefaultPalette" Text="Use Default Palette"/>
+  <StrRes Name="sRepeatAxesValues" Text="Ripeti i valori degli assi"/>
+  <StrRes Name="sHTMLFormat" Text="FOrmato HTML"/>
+  <StrRes Name="sUseDefaultPalette" Text="Usa la palette di default"/>
 </Resources>

@@ -4,10 +4,11 @@ FastCube enables you to analyze data and to build summary tables (data cut-offs)
 
 ## Current translations
 
-- English
-- Russian
 - Czech
+- English
+- Italian
 - Portuguese
+- Russian
 
 ## Current partial translations
 
@@ -17,7 +18,6 @@ FastCube enables you to analyze data and to build summary tables (data cut-offs)
 - German
 - Greek
 - Hungarian
-- Italian
 - Lithuanian
 - Polish
 - Spanish

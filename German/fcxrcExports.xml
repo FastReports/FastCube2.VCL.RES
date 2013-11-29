@@ -193,17 +193,52 @@
   <StrRes Name="8988" Text="Skaliert drucken"/>
   <StrRes Name="8989" Text="Confirmation Reading"/>
   
-  <StrRes Name="9101" Text="Export to DBF"/>
+  <StrRes Name="9101" Text="Export als DBF"/>
   <StrRes Name="9102" Text="dBase (DBF) export"/>
   <StrRes Name="9103" Text=".dbf"/>
-  <StrRes Name="9104" Text="Failed to load the file"/>
-  <StrRes Name="9105" Text="Failure"/>
-  <StrRes Name="9106" Text="Field names"/>
-  <StrRes Name="9107" Text="Automatically"/>
-  <StrRes Name="9108" Text="Manually"/>
-  <StrRes Name="9109" Text="Load from file"/>
+  <StrRes Name="9104" Text="Fehler beim laden der Datei"/>
+  <StrRes Name="9105" Text="Fehler"/>
+  <StrRes Name="9106" Text="Feldnamen"/>
+  <StrRes Name="9107" Text="Automatisch"/>
+  <StrRes Name="9108" Text="Manuell"/>
+  <StrRes Name="9109" Text="Lade aus Datei"/>
   <StrRes Name="9110" Text="Text files (*.txt)|*.txt|All files|*.*"/>
   <StrRes Name="9111" Text="DBF files (*.dbf)|*.dbf|All files|*.*"/> 
+  <StrRes Name="9151" Text="Excel 97/2000/XP file"/>
+  <StrRes Name="9152" Text="Datei automatisch erstellen"/>
+  <StrRes Name="9153" Text="Optionen"/>
+  <StrRes Name="9154" Text="Seite"/>
+  <StrRes Name="9155" Text="Grid Linien"/>
+  <StrRes Name="9156" Text="Alles auf eine Seite"/>
+  <StrRes Name="9157" Text="Datengruppierung"/>
+  <StrRes Name="9158" Text="Wie Bericht"/>
+  <StrRes Name="9159" Text="Blöcke. Jeder Block hat (rows):"/>
+  <StrRes Name="9160" Text="Blockgröße muss ein nicht negativer Integerwert sein."/>
+  <StrRes Name="9161" Text="SingleSheet must be False when exporting to chunks"/>
+  <StrRes Name="9162" Text="Autor"/>
+  <StrRes Name="9163" Text="Bemerkung"/>
+  <StrRes Name="9164" Text="Schlüsselwörter"/>
+  <StrRes Name="9165" Text="Revision"/>
+  <StrRes Name="9166" Text="Version"/>
+  <StrRes Name="9167" Text="Anwendung"/>
+  <StrRes Name="9168" Text="Subject"/>
+  <StrRes Name="9169" Text="Kategorie"/>
+  <StrRes Name="9170" Text="Firma"/>
+  <StrRes Name="9171" Text="Titel"/>
+  <StrRes Name="9172" Text="Autor"/>
+  <StrRes Name="9173" Text="Betreff"/>
+  <StrRes Name="9174" Text="Information"/>
+  <StrRes Name="9175" Text="Schutz"/>
+  <StrRes Name="9176" Text="Passwort"/>
+  <StrRes Name="9177" Text="Wenn Sie ein Passwort verwenden, wird das erzeugte Dokument mit diesem Passwort geschützt. Das Passwort wird immer im Unicode-Zeichensatz geschrieben und muss kürzer als 256 Zeichen sein."/>
+  <StrRes Name="9178" Text="Bestätigung"/>
+  <StrRes Name="9179" Text="Passwortbestätigung passt nicht zum passwort. Bitte das Passwort erneut eingeben."/>
+  <StrRes Name="9180" Text="Eingegebenes Passwort hat %d Zeichen. Maximal erlaubt sind %d Zeichen."/>
+  <StrRes Name="9181" Text="An Seitengröße anpassen"/>
+  <StrRes Name="9182" Text="Export nach Excel 97/2000/XP"/>
+  <StrRes Name="9183" Text="Leere Zeilen löschen"/>
+  <StrRes Name="9184" Text="Formeln exportieren"/>
+  
   <StrRes Name="expMailAddr" Text="Address or addresses delimited by comma"/>  
   <StrRes Name="sUseDefaultPalette" Text="Use Default Palette"/>
 </Resources>

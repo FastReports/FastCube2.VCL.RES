@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Resources CodePage="1253">
   <StrRes Name="2000" Text="Επιθεωρητής Αντικειμένων"/>
   <StrRes Name="oiProp" Text="Properties"/>
@@ -95,16 +95,16 @@
   <StrRes Name="2375" Text="Εργαλείο Διόρθωσης Κειμένου"/>
   <StrRes Name="2376" Text="Εργαλείο Αντιγραφής Μορφοποίησης"/>
   <StrRes Name="2377" Text="Εισαγωγή Ζώνης"/>
-  <StrRes Name="2378" Text="&amp;Αρχείο"/>
-  <StrRes Name="2379" Text="&amp;Επεξεργασία"/>
+  <StrRes Name="2378" Text="&#38;Αρχείο"/>
+  <StrRes Name="2379" Text="&#38;Επεξεργασία"/>
   <StrRes Name="2380" Text="Αναζήτηση..."/>
   <StrRes Name="2381" Text="Αναζήτηση Επόμενου"/>
   <StrRes Name="2382" Text="Αντικατάσταση..."/>
-  <StrRes Name="2383" Text="Αναφο&amp;ρά"/>
+  <StrRes Name="2383" Text="Αναφο&#38;ρά"/>
   <StrRes Name="2384" Text="Δεδομένα..."/>
   <StrRes Name="2385" Text="Επιλογές..."/>
   <StrRes Name="2386" Text="Στυλ..."/>
-  <StrRes Name="2387" Text="&amp;Εμφάνιση"/>
+  <StrRes Name="2387" Text="&#38;Εμφάνιση"/>
   <StrRes Name="2388" Text="Εργαλειοθήκες"/>
   <StrRes Name="2389" Text="Βασική"/>
   <StrRes Name="2390" Text="Κείμενο"/>
@@ -118,7 +118,7 @@
   <StrRes Name="2398" Text="Οδηγοί"/>
   <StrRes Name="2399" Text="Διαγραφή Οδηγών"/>
   <StrRes Name="2400" Text="Επιλογές..."/>
-  <StrRes Name="2401" Text="&amp;Βοήθεια"/>
+  <StrRes Name="2401" Text="&#38;Βοήθεια"/>
   <StrRes Name="2402" Text="Περιεχόμενα Βοήθειας..."/>
   <StrRes Name="2403" Text="Σχετικά με το FastReport..."/>
   <StrRes Name="2404" Text="Σειρά Tab..."/>
@@ -522,6 +522,7 @@
   <StrRes Name="4726" Text="Αποσύνδεση Αναφοράς"/>
   <StrRes Name="4727" Text="Επιλογές από Βασική Αναφορά:"/>
   <StrRes Name="4728" Text="Μεταφορά Επιλογών"/>
+  <StrRes Name="4729" Text="Templates path :"/>
   <StrRes Name="rePrnOnPort" Text="on"/>
   <StrRes Name="riNotInherited" Text="Η Αναφορά δεν είναι συνδεδεμένη."/>
   <StrRes Name="riInherited" Text="Η Αναφορά είναι συνδεδεμένη με την Βασική Αναφορά: %s"/>
@@ -735,6 +736,9 @@
   <StrRes Name="obFIBTb" Text="FIB Table"/>
   <StrRes Name="obFIBQ" Text="FIB Query"/>
   <StrRes Name="obFIBComps" Text="FIB Components"/>
+  <StrRes Name="obDataBases" Text="DataBases"/>
+  <StrRes Name="obTables" Text="Tables"/>
+  <StrRes Name="obQueries" Text="Queries"/>
   <StrRes Name="ctString" Text="Συμβολοσειρά (String)"/>
   <StrRes Name="ctDate" Text="Ημερομηνία/Ωρα"/>
   <StrRes Name="ctConv" Text="Μετατροπές"/>
@@ -842,4 +846,9 @@
   <StrRes Name="6001" Text="Οι δύο Αναφορές περιέχουν κοινά αντικείμενα. Τι επιθυμείτε να γίνει;"/>
   <StrRes Name="6002" Text="Διαγραφή Διπλών"/>
   <StrRes Name="6003" Text="Μετονομασία Διπλών"/>
+  <StrRes Name="6004" Text="Sort by Name"/>
+  <StrRes Name="crGroup" Text="Group"/>
+  <StrRes Name="4331" Text="Grouping"/>
+  <StrRes Name="BoolToStr" Text="Returns the True string if B is true, otherwise returns the False string"/>
+  <StrRes Name="StrToBool" Text="Returns true if S='True', false if S='False'. If S can't be converted, an exception is raised."/>
 </Resources>

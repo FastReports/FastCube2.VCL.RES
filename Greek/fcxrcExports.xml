@@ -1,4 +1,4 @@
-<?xml version="1.1" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Resources CodePage="1253">
   <StrRes Name="8000" Text="Εξαγωγή σε Excel"/>
   <StrRes Name="8001" Text="Styles"/>
@@ -95,6 +95,8 @@
   <StrRes Name="BMPexport" Text="Εικόνα BMP"/>
   <StrRes Name="JPEGexport" Text="Εικόνα JPEG"/>
   <StrRes Name="TIFFexport" Text="Εικόνα TIFF"/>
+  <StrRes Name="PNGexport" Text="PNG image"/>
+  <StrRes Name="EMFexport" Text="EMF image"/>
   <StrRes Name="TextExport" Text="Κείμενο (dotmatrix εκτυπωτή)"/>
   <StrRes Name="XlsOLEexport" Text="Πίνακας Excel (OLE)"/>
   <StrRes Name="HTMLexport" Text="Αρχείο HTML"/>
@@ -108,6 +110,8 @@
   <StrRes Name="TIFFexportFilter" Text="Εικόνα Tiff (*.tif)|*.tif"/>
   <StrRes Name="BMPexportFilter" Text="Εικόνα BMP (*.bmp)|*.bmp"/>
   <StrRes Name="JPEGexportFilter" Text="Εικόνα Jpeg (*.jpg)|*.jpg"/>
+  <StrRes Name="PNGexportFilter" Text="PNG image (*.png)|*.png"/>
+  <StrRes Name="EMFexportFilter" Text="EMF image (*.emf)|*.emf"/>
   <StrRes Name="HTMLNavFirst" Text="Πρώτη"/>
   <StrRes Name="HTMLNavPrev" Text="Προηγ."/>
   <StrRes Name="HTMLNavNext" Text="Επόμ."/>
@@ -192,7 +196,11 @@
   <StrRes Name="8987" Text="Center window"/>
   <StrRes Name="8988" Text="Print scaling"/>
   <StrRes Name="8989" Text="Confirmation Reading"/>
-  
+  <StrRes Name="9000" Text="Rows count:"/>
+  <StrRes Name="9001" Text="Split To Sheet"/>
+  <StrRes Name="9002" Text="Don't split"/>
+  <StrRes Name="9003" Text="Use report pages"/>
+  <StrRes Name="9004" Text="Use print on parent"/>
   <StrRes Name="9101" Text="Export to DBF"/>
   <StrRes Name="9102" Text="dBase (DBF) export"/>
   <StrRes Name="9103" Text=".dbf"/>
@@ -203,7 +211,68 @@
   <StrRes Name="9108" Text="Manually"/>
   <StrRes Name="9109" Text="Load from file"/>
   <StrRes Name="9110" Text="Text files (*.txt)|*.txt|All files|*.*"/>
-  <StrRes Name="9111" Text="DBF files (*.dbf)|*.dbf|All files|*.*"/> 
-  <StrRes Name="expMailAddr" Text="Address or addresses delimited by comma"/>  
+  <StrRes Name="9111" Text="DBF files (*.dbf)|*.dbf|All files|*.*"/>
+  <StrRes Name="9151" Text="Excel 97/2000/XP file"/>
+  <StrRes Name="9152" Text="Auto create file"/>
+  <StrRes Name="9153" Text="Options"/>
+  <StrRes Name="9154" Text="Page"/>
+  <StrRes Name="9155" Text="Grid Lines"/>
+  <StrRes Name="9156" Text="All in one page"/>
+  <StrRes Name="9157" Text="Data Grouping"/>
+  <StrRes Name="9158" Text="Like the report"/>
+  <StrRes Name="9159" Text="Chunks. Each chunk has (rows):"/>
+  <StrRes Name="9160" Text="Chunk size must be a non negative integer value."/>
+  <StrRes Name="9161" Text="SingleSheet must be False when exporting to chunks"/>
+  <StrRes Name="9162" Text="Author"/>
+  <StrRes Name="9163" Text="Comment"/>
+  <StrRes Name="9164" Text="Keywords"/>
+  <StrRes Name="9165" Text="Revision"/>
+  <StrRes Name="9166" Text="Version"/>
+  <StrRes Name="9167" Text="Application"/>
+  <StrRes Name="9168" Text="Subject"/>
+  <StrRes Name="9169" Text="Category"/>
+  <StrRes Name="9170" Text="Company"/>
+  <StrRes Name="9171" Text="Title"/>
+  <StrRes Name="9172" Text="Manager"/>
+  <StrRes Name="9173" Text="General"/>
+  <StrRes Name="9174" Text="Information"/>
+  <StrRes Name="9175" Text="Protection"/>
+  <StrRes Name="9176" Text="Password"/>
+  <StrRes Name="9177" Text="If you set a non empty password string, the generated document will be protected with this password. The password is always written in Unicode characters and must be shorter than 256 Unicode characters."/>
+  <StrRes Name="9178" Text="Confirmation"/>
+  <StrRes Name="9179" Text="Password confirmation does not match the password. Type the password again."/>
+  <StrRes Name="9180" Text="Attempting to set a password of %d characters. The maximum allowed length of a password is %d characters."/>
+  <StrRes Name="9181" Text="Adjust page size"/>
+  <StrRes Name="9182" Text="Export to Excel 97/2000/XP"/>
+  <StrRes Name="9183" Text="Delete empty rows"/>
+  <StrRes Name="9184" Text="Export formulas"/>
+  <StrRes Name="BiffCol" Text="Resizing columns"/>
+  <StrRes Name="BiffRow" Text="Resizing rows"/>
+  <StrRes Name="BiffCell" Text="Exporting cells"/>
+  <StrRes Name="BiffImg" Text="Exporting pictures"/>
+  <StrRes Name="9200" Text="Microsoft Excel 2007 XML"/>
+  <StrRes Name="9201" Text="Microsoft PowerPoint 2007 XML"/>
+  <StrRes Name="9203" Text="Microsoft Word 2007 XML"/>
+  <StrRes Name="9300" Text="HTML Layered"/>
+  <StrRes Name="9301" Text="HTML files (*.html)|*.html|All files|*.*"/>
+  <StrRes Name="9302" Text="HTML Layered Export"/>
+  <StrRes Name="9303" Text="HTML5 Layered"/>
+  <StrRes Name="9304" Text="HTML4 Layered"/>
+  <StrRes Name="9400" Text="Reordering components"/>
+  <StrRes Name="9401" Text="Rendering components"/>
+  <StrRes Name="9402" Text="Adjusting intersecting components"/>
+  <StrRes Name="9403" Text="Removing empty rows"/>
+  <StrRes Name="9404" Text="Adjusting frames"/>
+  <StrRes Name="9405" Text="Splitting big cells"/>
+  <StrRes Name="9406" Text="Composing BIFF file"/>
+  <StrRes Name="xProto" Text="Export Prototype"/>
+  <StrRes Name="xBlank" Text="Blank Export"/>
+  <StrRes Name="expMailAddr" Text="Address or addresses delimited by comma"/>
+  <StrRes Name="sExport" Text="Export"/>
+  <StrRes Name="sXMLExport" Text="XML Export"/>
+  <StrRes Name="sXMLFilter" Text="XML file (*.xml)|*.xml"/>
+  <StrRes Name="sXMLExt" Text=".xml"/>
+  <StrRes Name="sRepeatAxesValues" Text="Repeat axes values"/>
+  <StrRes Name="sHTMLFormat" Text="HTML format"/>
   <StrRes Name="sUseDefaultPalette" Text="Use Default Palette"/>
 </Resources>

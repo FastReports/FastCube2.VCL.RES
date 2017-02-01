@@ -846,4 +846,9 @@
   <StrRes Name="obDataBases" Text="Datenbanken"/>
   <StrRes Name="obTables" Text="Tabellen"/>
   <StrRes Name="obQueries" Text="Abfragen"/>
+  <StrRes Name="4729" Text="Templates path :"/>
+  <StrRes Name="crGroup" Text="Group"/>
+  <StrRes Name="4331" Text="Grouping"/>
+  <StrRes Name="BoolToStr" Text="Returns the True string if B is true, otherwise returns the False string"/>
+  <StrRes Name="StrToBool" Text="Returns true if S='True', false if S='False'. If S can't be converted, an exception is raised."/>
 </Resources>

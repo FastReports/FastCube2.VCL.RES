@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <Resources CodePage="1252">
   <StrRes Name="SOkBtn" Text="OK"/>
   <StrRes Name="SCancelBtn" Text="Abbrechen"/>
@@ -158,6 +158,10 @@
   <StrRes Name="sStdDevSPrefix" Text="Standard Definition S von "/>
   <StrRes Name="sFuncPrefix" Text="Kalkulation "/>
   <StrRes Name="sCountOfUniquePrefix" Text="Anzahl eindeutige von"/>
+  <StrRes Name="sFuncDetPrefix" Text="Kalkulation (detail) "/>
+  <StrRes Name="sMedianPrefix" Text="Median "/>
+  <StrRes Name="sWeightedMeanPrefix" Text="Weighted arithmetic mean of "/>
+  <StrRes Name="sWeightedMeanCaption" Text="Weighted arithmetic mean"/>
   <StrRes Name="sFactsRegion" Text="Ausgewähltes Feld hier ablegen"/>
   <StrRes Name="sRowsRegion" Text="Ausgewählte Zeile hier ablegen"/>
   <StrRes Name="sFiltersRegion" Text="Ausgewählte Filterfelder hier ablegen"/>
@@ -175,6 +179,8 @@
   <StrRes Name="sStdDevSCaption" Text="Standard Definition S"/>
   <StrRes Name="sFuncCaption" Text="Kalkulation"/>
   <StrRes Name="sCountOfUniqueCaption" Text="Anzahl eindeutige"/>
+  <StrRes Name="sFuncDetCaption" Text="Kalkulation (detail)"/>
+  <StrRes Name="sMedianCaption" Text="Median"/>
   <StrRes Name="sLinkToSelf" Text="Referenz auf sich selbst! Code=%d."/>
   <StrRes Name="sParentNotFound" Text="Ursprung nicht gefunden! Code=%d."/>
   <StrRes Name="sLoopLink" Text="Zirkulare Referenz! Code=%d."/>
@@ -349,7 +355,6 @@
   <StrRes Name="sSelect" Text="Select"/>
   <StrRes Name="sDeleteMeasure" Text="Delete measure"/>
   <StrRes Name="sProperties" Text="Properties..."/>
-  <StrRes Name="sFuncDetCaption" Text="Calculation (detail)"/>
   <StrRes Name="sChartMeasureFieldIndex" Text="Measure index:"/>
   <StrRes Name="obfrcCube" Text="FastCube 2 Cube object"/>
   <StrRes Name="obfrcChartView" Text="FastCube 2 Chart object"/>
@@ -559,4 +564,13 @@
   <StrRes Name="dtMeasures" Text="Measures"/>
   <StrRes Name="dtDimensions" Text="Dimensions"/>
   <StrRes Name="dtSliceFields" Text="SliceFields"/>
+  <StrRes Name="sAxisProperties" Text="Axis properties..."/>
+  <StrRes Name="sAxisEditor" Text="Axis editor"/>
+  <StrRes Name="sGrandTotalPosition" Text="Grand total position"/>
+  <StrRes Name="sAdditionalGrandTotals" Text="Additional grand totals"/>
+  <StrRes Name="sDistinctField" Text="Distinct Field"/>
+  <StrRes Name="sDistinct" Text="Distinct"/>
+  <StrRes Name="sListOfValuesCaption" Text="List of values"/>
+  <StrRes Name="sExtraField" Text="Extra Field"/>
+  <StrRes Name="sChangeNullToZero" Text="Change Null to Zero"/>
 </Resources>
